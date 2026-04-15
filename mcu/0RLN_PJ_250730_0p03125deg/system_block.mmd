@@ -1,0 +1,54 @@
+```mermaid
+flowchart TB
+
+    %% ===== External / Command =====
+    User[User / Host]
+    CAN[Config_CAN0]
+    DA[Config_DA]
+
+    %% ===== Control Core =====
+    MC[Mode_Control]
+    MT[Motor]
+    DT[Detect]
+    CM[Common]
+
+    %% ===== Measurement / Actuation =====
+    ADC0[Config_S12AD0]
+    ADC1[Config_S12AD1]
+    ADC2[Config_S12AD2]
+    PWM1[Config_MTU3_MTU4]
+    PWM2[Config_MTU6_MTU7]
+
+    %% ===== Physical Target =====
+    Plant[Motor Driver / Motor]
+
+    %% ===== Command path =====
+    User --> CAN
+    CAN --> MC
+    CM --> MC
+
+    %% ===== Control path =====
+    MC --> MT
+    MT --> PWM1
+    MT --> PWM2
+    PWM1 --> Plant
+    PWM2 --> Plant
+
+    %% ===== Feedback path =====
+    Plant --> ADC0
+    Plant --> ADC1
+    Plant --> ADC2
+    ADC0 --> MT
+    ADC1 --> MT
+    ADC2 --> MT
+
+    %% ===== Protection / Detection =====
+    ADC0 --> DT
+    ADC1 --> DT
+    ADC2 --> DT
+    DT --> MC
+    DT --> MT
+
+    %% ===== Status output =====
+    MC --> DA
+    MC --> CAN
