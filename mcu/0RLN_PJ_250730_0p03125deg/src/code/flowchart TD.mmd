@@ -1,0 +1,46 @@
+flowchart TD
+    Start([割り込み発生])
+
+    %% ===== Valley Interrupt =====
+    Start --> Valley[INTRPT_DD_MTR_MotorControlValley]
+
+    Valley --> RevCalc[回転数計算<br/>v_DD_MTR_CalcMotorRevolution_rpm]
+    RevCalc --> EAngle[電気角推定<br/>u16_DD_MTR_EstimateEAngle]
+
+    EAngle --> ADWait{AD0変換完了？}
+    ADWait -- No --> ADTimeout[タイムアウト判定<br/>DelayフラグON]
+    ADWait -- Yes --> CurrentCalc[相電流演算<br/>Iu, Iv, Iw]
+
+    CurrentCalc --> OCDetect[過電流検出<br/>v_DD_MTR_DetectOverCurrent]
+
+    OCDetect --> OCAbnormal{過電流異常？}
+    OCAbnormal -- Yes --> GateOff1[強制Gate OFF]
+    OCAbnormal -- No --> WireOpenEnable{断線検出有効？}
+
+    WireOpenEnable -- Yes --> PPcalc[P-P電流算出<br/>v_DD_MTR_CalcCurrentPp]
+    PPcalc --> WireDetect[断線検出<br/>v_DD_MTR_DetectWireOpen]
+
+    WireOpenEnable -- No --> ValleyEnd
+    WireDetect --> ValleyEnd
+
+    ADTimeout --> ValleyEnd
+    GateOff1 --> ValleyEnd
+    ValleyEnd([Valley処理終了])
+
+    %% ===== Peak Interrupt =====
+    ValleyEnd --> Peak[INTRPT_DD_MTR_MotorControlPeak]
+
+    Peak --> BattMon[バッテリ電圧監視<br/>v_DD_MTR_MonitoringBattVolt]
+
+    BattMon --> ClarkePark[Clarke & Park変換<br/>Id/Iq算出]
+
+    ClarkePark --> RegenDetect{回生過電圧？}
+    RegenDetect -- Yes --> GateOff2[Gate OFF実行]
+    RegenDetect -- No --> PIControl[電流PI制御<br/>v_DD_MTR_CurrentPIControl]
+
+    PIControl --> InvPark[逆Park & Clarke変換]
+    InvPark --> OverMod[オーバーモジュレーション]
+    OverMod --> ClipPWM[PWM指令クリップ]
+
+    ClipPWM --> GateCtrl[Gate制御]
+    GateCtrl --> PeakEnd([Peak処理終了])

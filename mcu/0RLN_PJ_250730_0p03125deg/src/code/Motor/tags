@@ -1,0 +1,989 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/feffe43a/
+B_DD_EX_IsAbnormalOverCurrent	DD_EXCITER.c	635;"	f	typeref:typename:bool
+B_DD_EX_IsEmergencyStop	DD_EXCITER.c	645;"	f	typeref:typename:bool
+B_DD_EX_IsGateOn	DD_EXCITER.c	516;"	f	typeref:typename:bool
+B_DD_MTR_IsAbnormalOverCurrent	DD_MOTOR.c	2270;"	f	typeref:typename:bool
+B_DD_MTR_IsAbnormalUPhaseWireOpen	DD_MOTOR.c	2280;"	f	typeref:typename:bool
+B_DD_MTR_IsAbnormalVPhaseWireOpen	DD_MOTOR.c	2290;"	f	typeref:typename:bool
+B_DD_MTR_IsAbnormalWPhaseWireOpen	DD_MOTOR.c	2300;"	f	typeref:typename:bool
+B_DD_MTR_IsAbnormanEncoder	DD_MOTOR.c	2260;"	f	typeref:typename:bool
+B_DD_MTR_IsGateOn	DD_MOTOR.c	1959;"	f	typeref:typename:bool
+B_DD_MTR_IsMotorReverseRotate	DD_MOTOR.c	2203;"	f	typeref:typename:bool
+B_DD_MTR_IsRotorVibrated	DD_MOTOR.c	2044;"	f	typeref:typename:bool
+B_MTR_IsGateOn	MOTOR.c	763;"	f	typeref:typename:bool
+B_MTR_IsGateOnPermit	MOTOR.c	542;"	f	typeref:typename:bool
+B_MTR_IsMotorStopped	MOTOR.c	773;"	f	typeref:typename:bool
+B_MTR_IsPermitted	MOTOR.c	784;"	f	typeref:typename:bool
+B_MTR_IsStartRequested	MOTOR.c	593;"	f	typeref:typename:bool
+B_MTR_PermittedByVehicleState	MOTOR.c	603;"	f	typeref:typename:bool
+ENUM_6STEP_STATE0	DD_MOTOR.c	110;"	e	enum:__anoncba0feee0403	file:
+ENUM_6STEP_STATE0	DD_MOTOR.c	271;"	e	enum:__anoncba0feee0903	file:
+ENUM_6STEP_STATE1	DD_MOTOR.c	111;"	e	enum:__anoncba0feee0403	file:
+ENUM_6STEP_STATE1	DD_MOTOR.c	272;"	e	enum:__anoncba0feee0903	file:
+ENUM_6STEP_STATE2	DD_MOTOR.c	112;"	e	enum:__anoncba0feee0403	file:
+ENUM_6STEP_STATE2	DD_MOTOR.c	273;"	e	enum:__anoncba0feee0903	file:
+ENUM_DD_MTR_IMIN_PHASE	DD_MOTOR.c	93;"	t	typeref:enum:__anoncba0feee0103	file:
+ENUM_DD_MTR_PP_SEARCH_INIT	DD_MOTOR.c	260;"	e	enum:__anoncba0feee0703	file:
+ENUM_DD_MTR_PP_SEARCH_INIT	DD_MOTOR.c	99;"	e	enum:__anoncba0feee0203	file:
+ENUM_DD_MTR_PP_SEARCH_RUNNING	DD_MOTOR.c	100;"	e	enum:__anoncba0feee0203	file:
+ENUM_DD_MTR_PP_SEARCH_RUNNING	DD_MOTOR.c	261;"	e	enum:__anoncba0feee0703	file:
+ENUM_IMIN_PHASE_U	DD_MOTOR.c	90;"	e	enum:__anoncba0feee0103	file:
+ENUM_IMIN_PHASE_V	DD_MOTOR.c	91;"	e	enum:__anoncba0feee0103	file:
+ENUM_IMIN_PHASE_W	DD_MOTOR.c	92;"	e	enum:__anoncba0feee0103	file:
+ENUM_WIRE_OPEN_ABNORMAL	DD_MOTOR.c	105;"	e	enum:__anoncba0feee0303	file:
+ENUM_WIRE_OPEN_ABNORMAL	DD_MOTOR.c	266;"	e	enum:__anoncba0feee0803	file:
+ENUM_WIRE_OPEN_NORMAL	DD_MOTOR.c	104;"	e	enum:__anoncba0feee0303	file:
+ENUM_WIRE_OPEN_NORMAL	DD_MOTOR.c	265;"	e	enum:__anoncba0feee0803	file:
+EncOffset_ImMap	ENC_OFFSET_MAP.h	52;"	v	typeref:typename:const struct ST_CMF_3D_MAP[]
+INTRPT_DD_EX_FieldControlPeak	DD_EXCITER.c	261;"	f	typeref:typename:void
+INTRPT_DD_EX_FieldControlValley	DD_EXCITER.c	150;"	f	typeref:typename:void
+INTRPT_DD_MTR_MotorControlPeak	DD_MOTOR.c	1056;"	f	typeref:typename:void
+INTRPT_DD_MTR_MotorControlValley	DD_MOTOR.c	454;"	f	typeref:typename:void
+Id_Tmap	CURRENT_MAP.h	113;"	v	typeref:typename:const struct ST_CMF_3D_MAP[]
+If_Tmap	CURRENT_MAP.h	254;"	v	typeref:typename:const struct ST_CMF_3D_MAP[]
+Iq_Tmap	CURRENT_MAP.h	185;"	v	typeref:typename:const struct ST_CMF_3D_MAP[]
+OFFSET	ENC_OFFSET_MAP.h	17;"	d
+Offset_Tmap	CURRENT_MAP.h	323;"	v	typeref:typename:const struct ST_CMF_3D_MAP[]
+S16_DD_EX_GetIfFb_10mA	DD_EXCITER.c	615;"	f	typeref:typename:s16
+S16_DD_EX_GetIfRef_10mA	DD_EXCITER.c	605;"	f	typeref:typename:s16
+S16_DD_EX_GetVfMax_10mV	DD_EXCITER.c	665;"	f	typeref:typename:s16
+S16_DD_EX_GetVf_10mV	DD_EXCITER.c	625;"	f	typeref:typename:s16
+S16_DD_EX_IFREF_DISCHARGE_10MA	DD_EXCITER.c	45;"	d	file:
+S16_DD_EX_OVER_CURRENT_THRESHOLD_10MA	DD_EXCITER.c	43;"	d	file:
+S16_DD_MTR_GetRevolutionAve6_rpm	DD_MOTOR.c	1949;"	f	typeref:typename:s16
+S16_DD_MTR_GetRevolution_rpm	DD_MOTOR.c	1939;"	f	typeref:typename:s16
+S16_DD_MTR_GetVdMax_10mV	DD_MOTOR.c	2331;"	f	typeref:typename:s16
+S16_DD_MTR_GetVqMax_10mV	DD_MOTOR.c	2341;"	f	typeref:typename:s16
+S16_EX_IF_MAX_10MA	DEFINE_MOTOR.h	60;"	d
+S16_EX_IF_MAX_10MA	DEFINE_MOTOR.h	62;"	d
+S16_EX_IF_MAX_10MA	DEFINE_MOTOR.h	64;"	d
+S16_EX_IF_RANGE_MAX_10MA	DEFINE_MOTOR.h	57;"	d
+S16_EX_PWM_TIMER_MAX	DEFINE_MOTOR.h	49;"	d
+S16_LIM_MTR_GetIfRef_10mA	LIMIT_MOTOR.c	504;"	f	typeref:typename:s16
+S16_LIM_MTR_GetTorqueRef_100mNm	LIMIT_MOTOR.c	514;"	f	typeref:typename:s16
+S16_MTR_CORRECT_IQ_MAX_100MA	DEFINE_MOTOR.h	123;"	d
+S16_MTR_CT_PP_DIFF_JUDGE_MOTREV_RPM	DD_MOTOR.c	82;"	d	file:
+S16_MTR_GATEON_IQREF_100MA	DEFINE_MOTOR.h	81;"	d
+S16_MTR_GATEON_IQREF_10MA	DEFINE_MOTOR.h	93;"	d
+S16_MTR_GetIdFb_100mA	MOTOR.c	723;"	f	typeref:typename:s16
+S16_MTR_GetIdRef_100mA	MOTOR.c	703;"	f	typeref:typename:s16
+S16_MTR_GetIfFbAve_10mA	MOTOR.c	753;"	f	typeref:typename:s16
+S16_MTR_GetImRms_100mA	MOTOR.c	743;"	f	typeref:typename:s16
+S16_MTR_GetIqFb_100mA	MOTOR.c	733;"	f	typeref:typename:s16
+S16_MTR_GetIqRef_100mA	MOTOR.c	713;"	f	typeref:typename:s16
+S16_MTR_GetRevolutionAve_rpm	MOTOR.c	623;"	f	typeref:typename:s16
+S16_MTR_GetRevolution_rpm	MOTOR.c	613;"	f	typeref:typename:s16
+S16_MTR_GetVdMax_10mV	MOTOR.c	845;"	f	typeref:typename:s16
+S16_MTR_GetVqMax_10mV	MOTOR.c	855;"	f	typeref:typename:s16
+S16_MTR_ID_MAX_100MA	DEFINE_MOTOR.h	148;"	d
+S16_MTR_ID_MIN_100MA	DEFINE_MOTOR.h	149;"	d
+S16_MTR_IM_MAX_100MA	DEFINE_MOTOR.h	125;"	d
+S16_MTR_IQ_0A_100MA	DEFINE_MOTOR.h	127;"	d
+S16_MTR_IQ_MAX_100MA	DEFINE_MOTOR.h	121;"	d
+S16_MTR_NO_REGENE_IQ_100MA	DEFINE_MOTOR.h	161;"	d
+S16_MTR_OVER_BACK_REVOLUTION_RELEASE_RPM	DEFINE_MOTOR.h	200;"	d
+S16_MTR_OVER_BACK_REVOLUTION_RPM	DEFINE_MOTOR.h	199;"	d
+S16_MTR_PWM_TIMER_MAX	DEFINE_MOTOR.h	30;"	d
+S16_MTR_PWM_VM_100PER_NEG	DEFINE_MOTOR.h	35;"	d
+S16_MTR_REVOLUTION_MAX_RPM	DEFINE_MOTOR.h	177;"	d
+S16_MTR_STEP_RESPONSE_READY_TORQUE_100MNM	LIMIT_MOTOR.c	44;"	d	file:
+S16_MTR_STEP_RESPONSE_TORQUE_100MNM	LIMIT_MOTOR.c	47;"	d	file:
+S16_MTR_STEP_RESPONSE_TORQUE_100MNM	LIMIT_MOTOR.c	49;"	d	file:
+S16_TRIG_Sin	TRIGONOMETRIC_FUNCTION.c	22;"	f	typeref:typename:s16
+S32_DD_EX_GetIntegralVf_10mV	DD_EXCITER.c	655;"	f	typeref:typename:s32
+S32_DD_MTR_GetIdFb_10mA	DD_MOTOR.c	2151;"	f	typeref:typename:s32
+S32_DD_MTR_GetIdRef_10mA	DD_MOTOR.c	2183;"	f	typeref:typename:s32
+S32_DD_MTR_GetIntegralVd_10mV	DD_MOTOR.c	2310;"	f	typeref:typename:s32
+S32_DD_MTR_GetIntegralVq_10mV	DD_MOTOR.c	2320;"	f	typeref:typename:s32
+S32_DD_MTR_GetIqFb_10mA	DD_MOTOR.c	2161;"	f	typeref:typename:s32
+S32_DD_MTR_GetIqRef_10mA	DD_MOTOR.c	2193;"	f	typeref:typename:s32
+S32_LIM_MTR_GetIdRef_10mA	LIMIT_MOTOR.c	493;"	f	typeref:typename:s32
+S32_LIM_MTR_GetIqRef_10mA	LIMIT_MOTOR.c	482;"	f	typeref:typename:s32
+S32_MTR_CORRECT_IQ_MAX_10MA	DEFINE_MOTOR.h	137;"	d
+S32_MTR_CT_PP_DIFF_JUDGE_IQREF_10MA	DD_MOTOR.c	81;"	d	file:
+S32_MTR_GetIdFb_10mA	MOTOR.c	673;"	f	typeref:typename:s32
+S32_MTR_GetIdRef_10mA	MOTOR.c	653;"	f	typeref:typename:s32
+S32_MTR_GetImRms_10mA	MOTOR.c	693;"	f	typeref:typename:s32
+S32_MTR_GetIntegralVd_10mV	MOTOR.c	824;"	f	typeref:typename:s32
+S32_MTR_GetIntegralVq_10mV	MOTOR.c	834;"	f	typeref:typename:s32
+S32_MTR_GetIqFb_10mA	MOTOR.c	683;"	f	typeref:typename:s32
+S32_MTR_GetIqRef_10mA	MOTOR.c	663;"	f	typeref:typename:s32
+S32_MTR_ID_MAX_10MA	DEFINE_MOTOR.h	151;"	d
+S32_MTR_ID_MIN_10MA	DEFINE_MOTOR.h	152;"	d
+S32_MTR_IM_MAX_10MA	DEFINE_MOTOR.h	139;"	d
+S32_MTR_IQ_0A_10MA	DEFINE_MOTOR.h	141;"	d
+S32_MTR_IQ_MAX_10MA	DEFINE_MOTOR.h	130;"	d
+S32_MTR_IQ_MAX_10MA	DEFINE_MOTOR.h	132;"	d
+S32_MTR_IQ_MAX_10MA	DEFINE_MOTOR.h	134;"	d
+S32_MTR_OVER_CURRENT_THRESHOLD_10MA	DD_MOTOR.c	63;"	d	file:
+S8_MTR_VIBRATE_COUNTDOWN	DD_MOTOR.c	59;"	d	file:
+S8_MTR_VIBRATE_COUNTMAX	DD_MOTOR.c	60;"	d	file:
+S8_MTR_VIBRATE_COUNTMIN	DD_MOTOR.c	61;"	d	file:
+S8_MTR_VIBRATE_COUNTUP	DD_MOTOR.c	58;"	d	file:
+ST_ENC_PATTERN_TABLE	DD_MOTOR.h	25;"	s
+ST_MTR_CURRENT_PP	TYPEDEF_MOTOR.h	51;"	t	typeref:struct:__anonb4cb1a3c0308
+ST_MTR_PHASE_CURRENT	TYPEDEF_MOTOR.h	23;"	t	typeref:struct:__anonb4cb1a3c0108
+ST_MTR_PWM_TIMER	TYPEDEF_MOTOR.h	37;"	t	typeref:struct:__anonb4cb1a3c0208
+St_DD_EX_GetAdValue1	DD_EXCITER.c	584;"	f	typeref:typename:ST_ADC_ADVALUE1
+St_DD_MTR_GetAdValue0	DD_MOTOR.c	2102;"	f	typeref:typename:ST_ADC_ADVALUE0
+St_DD_MTR_GetDq32	DD_MOTOR.c	2141;"	f	typeref:typename:ST_ADC_DQ32
+St_MTR_GetAdValueAve	MOTOR.c	500;"	f	typeref:typename:ST_ADC_ADVALUE_AVE
+TRIG_CALC_DQ_TRANSFORM_A	TRIGONOMETRIC_FUNCTION.h	28;"	d
+TRIG_CALC_DQ_TRANSFORM_B	TRIGONOMETRIC_FUNCTION.h	29;"	d
+TRIG_CALC_DQ_TRANSFORM_C	TRIGONOMETRIC_FUNCTION.h	30;"	d
+TRIG_CALC_DQ_TRANSFORM_D	TRIGONOMETRIC_FUNCTION.h	31;"	d
+TRIG_CALC_UVW_TRANSFORM_A	TRIGONOMETRIC_FUNCTION.h	33;"	d
+TRIG_CALC_UVW_TRANSFORM_B	TRIGONOMETRIC_FUNCTION.h	34;"	d
+TRIG_CALC_UVW_TRANSFORM_C	TRIGONOMETRIC_FUNCTION.h	35;"	d
+TRIG_CALC_UVW_TRANSFORM_D	TRIGONOMETRIC_FUNCTION.h	36;"	d
+U16_2SLASH_SQRT3_16384	TRIGONOMETRIC_FUNCTION.h	18;"	d
+U16_ACCEL_RATE_STEP_RESPONSE_OFF_THRESHOLD	LIMIT_MOTOR.c	43;"	d	file:
+U16_ACCEL_RATE_STEP_RESPONSE_ON_THRESHOLD	LIMIT_MOTOR.c	42;"	d	file:
+U16_COSIGN_OFFSET_90	TRIGONOMETRIC_FUNCTION.h	20;"	d
+U16_DD_MTR_GetAdValueBattVolt	DD_MOTOR.c	2113;"	f	typeref:typename:u16
+U16_DD_MTR_GetAdValueInvVolt	DD_MOTOR.c	2123;"	f	typeref:typename:u16
+U16_DD_MTR_GetBattVolt_10mV	DD_MOTOR.c	2133;"	f	typeref:typename:u16
+U16_ENC_180DEG_EXP5	TRIGONOMETRIC_FUNCTION.h	23;"	d
+U16_ENC_270DEG_EXP5	TRIGONOMETRIC_FUNCTION.h	24;"	d
+U16_ENC_360DEG_EXP5	TRIGONOMETRIC_FUNCTION.h	25;"	d
+U16_ENC_90DEG_EXP5	TRIGONOMETRIC_FUNCTION.h	22;"	d
+U16_ENC_CYCLE_MIN_TIMER_VALUE	DEFINE_MOTOR.h	179;"	d
+U16_ENC_EANGLE60_MAX_0P03125DEG	DEFINE_MOTOR.h	182;"	d
+U16_ENC_EANGLE60_MAX_DEG	DEFINE_MOTOR.h	184;"	d
+U16_ENC_EANGLE_ESTIMATE_UNIT_MAX_DEG	DEFINE_MOTOR.h	194;"	d
+U16_ENC_EANGLE_MAX_0P03125DEG	DEFINE_MOTOR.h	181;"	d
+U16_ENC_EANGLE_MAX_DEG	DEFINE_MOTOR.h	183;"	d
+U16_ENC_FIRST_QUADRANT_NUM	TRIGONOMETRIC_FUNCTION.h	26;"	d
+U16_EX_DISCHARGE_PWM_TIMER_MIN	DD_EXCITER.c	46;"	d	file:
+U16_EX_IF_OFFSET_STANDARD_ADVALUE	DEFINE_MOTOR.h	158;"	d
+U16_EX_KI	DEFINE_MOTOR.h	225;"	d
+U16_EX_KP	DEFINE_MOTOR.h	224;"	d
+U16_EX_PWM_CYCLE	DEFINE_MOTOR.h	45;"	d
+U16_EX_PWM_FREQ_KHZ	DEFINE_MOTOR.h	44;"	d
+U16_EX_PWM_HALF	DEFINE_MOTOR.h	46;"	d
+U16_EX_PWM_TIMER_MAX	DEFINE_MOTOR.h	48;"	d
+U16_EX_PWM_TIMER_MIN	DEFINE_MOTOR.h	50;"	d
+U16_EX_PWM_VM_100PER	DEFINE_MOTOR.h	52;"	d
+U16_EX_VF_MAX	DEFINE_MOTOR.h	55;"	d
+U16_IMLIM_TABLE_SIZE_NUM	IMLIMIT_TABLE.h	10;"	d
+U16_MTR_ACCEL_RATE_MAX	DEFINE_MOTOR.h	145;"	d
+U16_MTR_ACCEL_RATE_MIN	DEFINE_MOTOR.h	144;"	d
+U16_MTR_CT_OFFSET_STANDARD_ADVALUE	DEFINE_MOTOR.h	156;"	d
+U16_MTR_CT_RANGE_MAX_100MA	DEFINE_MOTOR.h	154;"	d
+U16_MTR_DAXIS_KI	DEFINE_MOTOR.h	221;"	d
+U16_MTR_DAXIS_KP	DEFINE_MOTOR.h	220;"	d
+U16_MTR_DEADTIME_PWM_TIME	DD_MOTOR.c	70;"	d	file:
+U16_MTR_DEADTIME_PWM_TIMER_LOW	DD_MOTOR.c	69;"	d	file:
+U16_MTR_DEADTIME_VQ_100MV	DD_MOTOR.c	71;"	d	file:
+U16_MTR_DEAD_TIME	DEFINE_MOTOR.h	25;"	d
+U16_MTR_EANGLE_ESTIMATE	DD_MOTOR.c	49;"	d	file:
+U16_MTR_EANGLE_ESTIMATE_0P5	DD_MOTOR.c	50;"	d	file:
+U16_MTR_EANGLE_ESTIMATE_MAX_0P03125DEG	DD_MOTOR.c	52;"	d	file:
+U16_MTR_EANGLE_ESTIMATE_MAX_DEG	DD_MOTOR.c	51;"	d	file:
+U16_MTR_EANGLE_LOWSPD_OFFSET_0P03125DEG	DEFINE_MOTOR.h	77;"	d
+U16_MTR_EANGLE_LOWSPD_OFFSET_DEG	DEFINE_MOTOR.h	78;"	d
+U16_MTR_EANGLE_OFFSET_0P03125DEG	DEFINE_MOTOR.h	74;"	d
+U16_MTR_EANGLE_OFFSET_DEG	DEFINE_MOTOR.h	75;"	d
+U16_MTR_GATE_OFF_BATT_VOLT_10MV	DD_MOTOR.c	74;"	d	file:
+U16_MTR_GATE_ON_BATT_VOLT_10MV	DD_MOTOR.c	75;"	d	file:
+U16_MTR_GetAdValueAveIfOffset	MOTOR.c	510;"	f	typeref:typename:u16
+U16_MTR_GetAdValueBattVolt	MOTOR.c	794;"	f	typeref:typename:u16
+U16_MTR_GetDAxisPropoGain	MOTOR.c	633;"	f	typeref:typename:u16
+U16_MTR_GetQAxisPropoGain	MOTOR.c	643;"	f	typeref:typename:u16
+U16_MTR_INTEGRAL_VDQ_MAX_10MV	DD_MOTOR.c	86;"	d	file:
+U16_MTR_IQREF_DEC_HIGH_100MA	DEFINE_MOTOR.h	85;"	d
+U16_MTR_IQREF_DEC_HIGH_10MA	DEFINE_MOTOR.h	97;"	d
+U16_MTR_IQREF_DEC_LOW_100MA	DEFINE_MOTOR.h	87;"	d
+U16_MTR_IQREF_DEC_LOW_10MA	DEFINE_MOTOR.h	99;"	d
+U16_MTR_IQREF_DEC_MIDDLE_100MA	DEFINE_MOTOR.h	86;"	d
+U16_MTR_IQREF_DEC_MIDDLE_10MA	DEFINE_MOTOR.h	98;"	d
+U16_MTR_IQREF_INC_HIGH_100MA	DEFINE_MOTOR.h	82;"	d
+U16_MTR_IQREF_INC_HIGH_10MA	DEFINE_MOTOR.h	94;"	d
+U16_MTR_IQREF_INC_LOW_100MA	DEFINE_MOTOR.h	83;"	d
+U16_MTR_IQREF_INC_LOW_10MA	DEFINE_MOTOR.h	95;"	d
+U16_MTR_LOW_SPD_REVOLUTION_RPM	DEFINE_MOTOR.h	113;"	d
+U16_MTR_MAX_ENC_COUNT	DD_MOTOR.c	55;"	d	file:
+U16_MTR_MAX_PWM_TIMER_VALUE	DEFINE_MOTOR.h	206;"	d
+U16_MTR_OVERMODULATION_COEF	DEFINE_MOTOR.h	117;"	d
+U16_MTR_OVER_MODULATION_COEF	DEFINE_MOTOR.h	37;"	d
+U16_MTR_OVER_REVOLUTION_RELEASE_RPM	DEFINE_MOTOR.h	198;"	d
+U16_MTR_OVER_REVOLUTION_RPM	DEFINE_MOTOR.h	197;"	d
+U16_MTR_POLEPAIRS	DEFINE_MOTOR.h	69;"	d
+U16_MTR_PWM_CYCLE	DEFINE_MOTOR.h	26;"	d
+U16_MTR_PWM_FREQ_KHZ	DEFINE_MOTOR.h	24;"	d
+U16_MTR_PWM_HALF	DEFINE_MOTOR.h	27;"	d
+U16_MTR_PWM_NEUTRAL_POINT	DEFINE_MOTOR.h	32;"	d
+U16_MTR_PWM_TIMER_MAX	DEFINE_MOTOR.h	29;"	d
+U16_MTR_PWM_TIMER_MIN	DEFINE_MOTOR.h	31;"	d
+U16_MTR_PWM_VM_100PER	DEFINE_MOTOR.h	34;"	d
+U16_MTR_QAXIS_KI	DEFINE_MOTOR.h	223;"	d
+U16_MTR_QAXIS_KP	DEFINE_MOTOR.h	222;"	d
+U16_MTR_REVOLUTION_MAX_RPM	DEFINE_MOTOR.h	176;"	d
+U16_MTR_STOPPED_IFFB_10MA	DEFINE_MOTOR.h	91;"	d
+U16_MTR_STOPPED_IQFB_100MA	DEFINE_MOTOR.h	90;"	d
+U16_MTR_STOPPED_IQFB_10MA	DEFINE_MOTOR.h	89;"	d
+U16_MTR_STOPPED_REVOLUTION_RPM	DEFINE_MOTOR.h	114;"	d
+U16_MTR_TORQUE_MAX_100MNM	DEFINE_MOTOR.h	167;"	d
+U16_MTR_TORQUE_MAX_100MNM	DEFINE_MOTOR.h	169;"	d
+U16_MTR_TORQUE_MAX_100MNM	DEFINE_MOTOR.h	171;"	d
+U16_MTR_TRQREF_DEC_HIGH_100MNM	LIMIT_MOTOR.c	39;"	d	file:
+U16_MTR_TRQREF_DEC_LOW_100MNM	LIMIT_MOTOR.c	40;"	d	file:
+U16_MTR_TRQREF_INC_HIGH_100MNM	LIMIT_MOTOR.c	36;"	d	file:
+U16_MTR_TRQREF_INC_LOW_100MNM	LIMIT_MOTOR.c	37;"	d	file:
+U16_MTR_VD_MAX	DEFINE_MOTOR.h	39;"	d
+U16_MTR_VQ_BIAS_COEF_100MV	DD_MOTOR.c	47;"	d	file:
+U16_MTR_VQ_MAX	DEFINE_MOTOR.h	40;"	d
+U16_MTR_WATT_CALC_COEF	DEFINE_MOTOR.h	111;"	d
+U16_MTR_WIRE_OPEN_JUDGE_COUNT	DD_MOTOR.c	84;"	d	file:
+U16_MTU3_PWM_CLK_MHZ	DEFINE_MOTOR.h	23;"	d
+U16_MTU6_PWM_CLK_MHZ	DEFINE_MOTOR.h	43;"	d
+U16_THETA_OFFSET_120	TRIGONOMETRIC_FUNCTION.h	19;"	d
+U16_VQLIM_TABLE_SIZE_NUM	VQLIMIT_TABLE - コピー (2).h	10;"	d
+U16_VQLIM_TABLE_SIZE_NUM	VQLIMIT_TABLE - コピー (3).h	12;"	d
+U16_VQLIM_TABLE_SIZE_NUM	VQLIMIT_TABLE - コピー (3).h	349;"	d
+U16_VQLIM_TABLE_SIZE_NUM	VQLIMIT_TABLE - コピー.h	10;"	d
+U16_VQLIM_TABLE_SIZE_NUM	VQLIMIT_TABLE.h	10;"	d
+U32_ENC_EANGLE360_MAX	DEFINE_MOTOR.h	185;"	d
+U32_ENC_EANGLE360_TIMER_VALUE	DEFINE_MOTOR.h	189;"	d
+U32_ENC_EANGLE60_MAX	DEFINE_MOTOR.h	186;"	d
+U32_ENC_EANGLE60_TIMER_VALUE	DEFINE_MOTOR.h	190;"	d
+U32_ENC_MAX_TIMER_VALUE	DEFINE_MOTOR.h	195;"	d
+U32_ENC_TIMER_RESOLUTON_60HZ	DEFINE_MOTOR.h	188;"	d
+U32_ENC_TIMER_RESOLUTON_HZ	DEFINE_MOTOR.h	187;"	d
+U32_MTR_CT_RANGE_MAX_10MA	DEFINE_MOTOR.h	155;"	d
+U32_MTR_WIRE_OPEN_JUDGE_TIME_MS	DD_MOTOR.c	83;"	d	file:
+U8_ABNORMAL_ENC_COUNT	DD_MOTOR.c	57;"	d	file:
+U8_CURRENT_MAP_POINT_NUM	CURRENT_MAP.h	16;"	d
+U8_CURRENT_MAP_T_POINT_NUM	CURRENT_MAP.h	110;"	d
+U8_DD_EX_OVERCURRENT_COUNT	DD_EXCITER.c	39;"	d	file:
+U8_DD_MTR_GetEncPattern	DD_MOTOR.c	2033;"	f	typeref:typename:u8
+U8_DD_MTR_GetEncPatternChecker	DD_MOTOR.c	2240;"	f	typeref:typename:u8
+U8_ENC_OFFSET_MAP_IM_POINT_NUM	ENC_OFFSET_MAP.h	51;"	d
+U8_ENC_OFFSET_MAP_POINT_NUM	ENC_OFFSET_MAP.h	20;"	d
+U8_ENC_TIMEROVERFLOW_COUNT_MAX	DEFINE_MOTOR.h	192;"	d
+U8_EX_AD1_MAX_WAITING_COUNT	DD_EXCITER.c	41;"	d	file:
+U8_LIM_MTR_GetQuadrant	LIMIT_MOTOR.c	524;"	f	typeref:typename:u8
+U8_MTR_AD0_MAX_WAITING_COUNT	DD_MOTOR.c	66;"	d	file:
+U8_MTR_DAXIS_KP_NUM	MOTOR.c	38;"	d	file:
+U8_MTR_GetQuadrant	MOTOR.c	804;"	f	typeref:typename:u8
+U8_MTR_GetVoltageUtilizationRate_percent	MOTOR.c	814;"	f	typeref:typename:u8
+U8_MTR_NG_ENC_PATTERN1	DD_MOTOR.c	77;"	d	file:
+U8_MTR_NG_ENC_PATTERN2	DD_MOTOR.c	78;"	d	file:
+U8_MTR_NUM_ENCODER_PATTERNS	DEFINE_MOTOR.h	67;"	d
+U8_MTR_OVERCURRENT_COUNT	DD_MOTOR.c	64;"	d	file:
+U8_MTR_TIME_CONST_FACTOR	MOTOR.c	35;"	d	file:
+UNI_LIM_MTR_STEPRESPONSEFLG	LIMIT_MOTOR.c	62;"	t	typeref:union:__anon01695205010a	file:
+V_DD_EX_CanselForcedGateOff	DD_EXCITER.c	576;"	f	typeref:typename:void
+V_DD_EX_ExecuteGateOff	DD_EXCITER.c	362;"	f	typeref:typename:void
+V_DD_EX_Forbid	DD_EXCITER.c	526;"	f	typeref:typename:void
+V_DD_EX_ForcedGateOff	DD_EXCITER.c	566;"	f	typeref:typename:void
+V_DD_EX_InitializeForRestart	DD_EXCITER.c	675;"	f	typeref:typename:void
+V_DD_EX_Permit	DD_EXCITER.c	536;"	f	typeref:typename:void
+V_DD_EX_SetIfRef_10mA	DD_EXCITER.c	595;"	f	typeref:typename:void
+V_DD_EX_StartControl	DD_EXCITER.c	546;"	f	typeref:typename:void
+V_DD_EX_StopControl	DD_EXCITER.c	556;"	f	typeref:typename:void
+V_DD_MTR_ClearEncPatternChecker	DD_MOTOR.c	2230;"	f	typeref:typename:void
+V_DD_MTR_DetectEncoderActivate	DD_MOTOR.c	2084;"	f	typeref:typename:void
+V_DD_MTR_DetectEncoderInactivate	DD_MOTOR.c	2074;"	f	typeref:typename:void
+V_DD_MTR_DetectWireOpenActivate	DD_MOTOR.c	2064;"	f	typeref:typename:void
+V_DD_MTR_DetectWireOpenInactivate	DD_MOTOR.c	2054;"	f	typeref:typename:void
+V_DD_MTR_ExecuteGateOff	DD_MOTOR.c	1142;"	f	typeref:typename:void
+V_DD_MTR_Forbid	DD_MOTOR.c	1979;"	f	typeref:typename:void
+V_DD_MTR_Initialize	DD_MOTOR.c	2213;"	f	typeref:typename:void
+V_DD_MTR_InitializeForRestart	DD_MOTOR.c	2351;"	f	typeref:typename:void
+V_DD_MTR_Permit	DD_MOTOR.c	1969;"	f	typeref:typename:void
+V_DD_MTR_SetEangleOffset_deg	DD_MOTOR.c	2094;"	f	typeref:typename:void
+V_DD_MTR_SetIdqRef_10mA	DD_MOTOR.c	2172;"	f	typeref:typename:void
+V_DD_MTR_StartControl	DD_MOTOR.c	1989;"	f	typeref:typename:void
+V_DD_MTR_StopControl	DD_MOTOR.c	1999;"	f	typeref:typename:void
+V_LIM_MTR_Initialize	LIMIT_MOTOR.c	534;"	f	typeref:typename:void
+V_LIM_MTR_Loop10ms	LIMIT_MOTOR.c	114;"	f	typeref:typename:void
+V_MTR_Forbid	MOTOR.c	532;"	f	typeref:typename:void
+V_MTR_ForbidByVehicleState	MOTOR.c	583;"	f	typeref:typename:void
+V_MTR_InitializeForRestart	MOTOR.c	482;"	f	typeref:typename:void
+V_MTR_Loop10ms	MOTOR.c	163;"	f	typeref:typename:void
+V_MTR_Permit	MOTOR.c	520;"	f	typeref:typename:void
+V_MTR_PermitByVehicleState	MOTOR.c	573;"	f	typeref:typename:void
+V_MTR_StartControl	MOTOR.c	552;"	f	typeref:typename:void
+V_MTR_StopControl	MOTOR.c	563;"	f	typeref:typename:void
+V_MTR_UpdateRevolutionAve_rpm	MOTOR.c	346;"	f	typeref:typename:void
+__DD_EXCITER_H	DD_EXCITER.h	11;"	d
+__DD_MOTOR_H	DD_MOTOR.h	11;"	d
+__DEFINE_MOTOR_H	DEFINE_MOTOR.h	2;"	d
+__LIMIT_MOTOR_H	LIMIT_MOTOR.h	11;"	d
+__MOTOR_H	MOTOR.h	11;"	d
+__TRIGONOMETRIC_FUNCTION_H	TRIGONOMETRIC_FUNCTION.h	11;"	d
+__TYPEDEF_MOTOR_H	TYPEDEF_MOTOR.h	7;"	d
+__anon01695205010a	LIMIT_MOTOR.c	54;"	u	file:
+__anon016952050208	LIMIT_MOTOR.c	57;"	s	union:__anon01695205010a	file:
+__anonb4cb1a3c0108	TYPEDEF_MOTOR.h	19;"	s
+__anonb4cb1a3c0208	TYPEDEF_MOTOR.h	25;"	s
+__anonb4cb1a3c0308	TYPEDEF_MOTOR.h	39;"	s
+__anoncba0feee0103	DD_MOTOR.c	89;"	g	file:
+__anoncba0feee0203	DD_MOTOR.c	98;"	g	file:
+__anoncba0feee0303	DD_MOTOR.c	103;"	g	file:
+__anoncba0feee0403	DD_MOTOR.c	109;"	g	file:
+__anoncba0feee050a	DD_MOTOR.c	243;"	u	file:
+__anoncba0feee0608	DD_MOTOR.c	246;"	s	union:__anoncba0feee050a	file:
+__anoncba0feee0703	DD_MOTOR.c	259;"	g	file:
+__anoncba0feee0803	DD_MOTOR.c	264;"	g	file:
+__anoncba0feee0903	DD_MOTOR.c	270;"	g	file:
+__anoncba0feee0a0a	DD_MOTOR.c	404;"	u	file:
+__anoncba0feee0b08	DD_MOTOR.c	407;"	s	union:__anoncba0feee0a0a	file:
+b_DD_EX_abnormalOverCurrent	DD_EXCITER.c	125;"	v	typeref:typename:bool	file:
+b_DD_EX_abnormalOverCurrent	DD_EXCITER.c	81;"	v	typeref:typename:bool
+b_DD_EX_emergencyStop	DD_EXCITER.c	107;"	v	typeref:typename:bool	file:
+b_DD_EX_emergencyStop	DD_EXCITER.c	63;"	v	typeref:typename:bool
+b_DD_EX_forcedGateOff	DD_EXCITER.c	106;"	v	typeref:typename:bool	file:
+b_DD_EX_forcedGateOff	DD_EXCITER.c	62;"	v	typeref:typename:bool
+b_DD_EX_isDelayAD1Convert	DD_EXCITER.c	52;"	v	typeref:typename:bool
+b_DD_EX_isDelayAD1Convert	DD_EXCITER.c	96;"	v	typeref:typename:bool	file:
+b_DD_EX_isDischargePreparingFinish	DD_EXCITER.c	132;"	v	typeref:typename:bool	file:
+b_DD_EX_isDischargePreparingFinish	DD_EXCITER.c	88;"	v	typeref:typename:bool
+b_DD_EX_isDischargeRun	DD_EXCITER.c	131;"	v	typeref:typename:bool	file:
+b_DD_EX_isDischargeRun	DD_EXCITER.c	87;"	v	typeref:typename:bool
+b_DD_EX_isGateOn	DD_EXCITER.c	105;"	v	typeref:typename:bool	file:
+b_DD_EX_isGateOn	DD_EXCITER.c	61;"	v	typeref:typename:bool
+b_DD_EX_isNotGateOffForEvalution	DD_EXCITER.c	134;"	v	typeref:typename:bool	file:
+b_DD_EX_isNotGateOffForEvalution	DD_EXCITER.c	91;"	v	typeref:typename:bool
+b_DD_EX_isPermitted	DD_EXCITER.c	104;"	v	typeref:typename:bool	file:
+b_DD_EX_isPermitted	DD_EXCITER.c	60;"	v	typeref:typename:bool
+b_DD_EX_isStartAD1Convert	DD_EXCITER.c	51;"	v	typeref:typename:bool
+b_DD_EX_isStartAD1Convert	DD_EXCITER.c	95;"	v	typeref:typename:bool	file:
+b_DD_EX_isStartRequested	DD_EXCITER.c	103;"	v	typeref:typename:bool	file:
+b_DD_EX_isStartRequested	DD_EXCITER.c	59;"	v	typeref:typename:bool
+b_DD_MTR_DetectEncPattern	DD_MOTOR.c	2009;"	f	typeref:typename:bool	file:
+b_DD_MTR_detectEncoderActivate	DD_MOTOR.c	181;"	v	typeref:typename:bool
+b_DD_MTR_detectEncoderActivate	DD_MOTOR.c	342;"	v	typeref:typename:bool	file:
+b_DD_MTR_detectWireOpenActivate	DD_MOTOR.c	180;"	v	typeref:typename:bool
+b_DD_MTR_detectWireOpenActivate	DD_MOTOR.c	341;"	v	typeref:typename:bool	file:
+b_DD_MTR_isDelayAD0Convert	DD_MOTOR.c	118;"	v	typeref:typename:bool
+b_DD_MTR_isDelayAD0Convert	DD_MOTOR.c	279;"	v	typeref:typename:bool	file:
+b_DD_MTR_isEncReverseRotate	DD_MOTOR.c	154;"	v	typeref:typename:bool
+b_DD_MTR_isEncReverseRotate	DD_MOTOR.c	315;"	v	typeref:typename:bool	file:
+b_DD_MTR_isEncReverseRotateLast	DD_MOTOR.c	155;"	v	typeref:typename:bool
+b_DD_MTR_isEncReverseRotateLast	DD_MOTOR.c	316;"	v	typeref:typename:bool	file:
+b_DD_MTR_isGateOn	DD_MOTOR.c	148;"	v	typeref:typename:bool
+b_DD_MTR_isGateOn	DD_MOTOR.c	309;"	v	typeref:typename:bool	file:
+b_DD_MTR_isLowSpdSetFinished	DD_MOTOR.c	176;"	v	typeref:typename:bool
+b_DD_MTR_isLowSpdSetFinished	DD_MOTOR.c	337;"	v	typeref:typename:bool	file:
+b_DD_MTR_isMotorReverseRotate	DD_MOTOR.c	156;"	v	typeref:typename:bool
+b_DD_MTR_isMotorReverseRotate	DD_MOTOR.c	317;"	v	typeref:typename:bool	file:
+b_DD_MTR_isPermitted	DD_MOTOR.c	147;"	v	typeref:typename:bool
+b_DD_MTR_isPermitted	DD_MOTOR.c	308;"	v	typeref:typename:bool	file:
+b_DD_MTR_isRotorVibration	DD_MOTOR.c	177;"	v	typeref:typename:bool
+b_DD_MTR_isRotorVibration	DD_MOTOR.c	338;"	v	typeref:typename:bool	file:
+b_DD_MTR_isStartAD0Convert	DD_MOTOR.c	117;"	v	typeref:typename:bool
+b_DD_MTR_isStartAD0Convert	DD_MOTOR.c	278;"	v	typeref:typename:bool	file:
+b_DD_MTR_isStartRequested	DD_MOTOR.c	146;"	v	typeref:typename:bool
+b_DD_MTR_isStartRequested	DD_MOTOR.c	307;"	v	typeref:typename:bool	file:
+b_DD_MTR_overRegenerativeVoltage	DD_MOTOR.c	179;"	v	typeref:typename:bool
+b_DD_MTR_overRegenerativeVoltage	DD_MOTOR.c	340;"	v	typeref:typename:bool	file:
+b_MTR_emergencyStop	MOTOR.c	65;"	v	typeref:typename:bool
+b_MTR_idInactivate	MOTOR.c	100;"	v	typeref:typename:volatile bool
+b_MTR_idInactivate	MOTOR.c	142;"	v	typeref:typename:volatile bool	file:
+b_MTR_isMotorStopped	MOTOR.c	139;"	v	typeref:typename:bool	file:
+b_MTR_isMotorStopped	MOTOR.c	97;"	v	typeref:typename:bool
+b_MTR_isPermitted	MOTOR.c	105;"	v	typeref:typename:bool	file:
+b_MTR_isPermitted	MOTOR.c	62;"	v	typeref:typename:bool
+b_MTR_isPermittedByVcu	MOTOR.c	107;"	v	typeref:typename:bool	file:
+b_MTR_isPermittedByVcu	MOTOR.c	64;"	v	typeref:typename:bool
+b_MTR_isPermittedByVehicleState	MOTOR.c	106;"	v	typeref:typename:bool	file:
+b_MTR_isPermittedByVehicleState	MOTOR.c	63;"	v	typeref:typename:bool
+b_MTR_isStartRequested	MOTOR.c	104;"	v	typeref:typename:bool	file:
+b_MTR_isStartRequested	MOTOR.c	61;"	v	typeref:typename:bool
+b_abnormalEncoder	DD_MOTOR.c	248;"	m	struct:__anoncba0feee050a::__anoncba0feee0608	typeref:typename:u8:1	file:
+b_abnormalEncoder	DD_MOTOR.c	409;"	m	struct:__anoncba0feee0a0a::__anoncba0feee0b08	typeref:typename:u8:1	file:
+b_abnormalOverCurrent	DD_MOTOR.c	247;"	m	struct:__anoncba0feee050a::__anoncba0feee0608	typeref:typename:u8:1	file:
+b_abnormalOverCurrent	DD_MOTOR.c	408;"	m	struct:__anoncba0feee0a0a::__anoncba0feee0b08	typeref:typename:u8:1	file:
+b_abnormalUPhaseWireOpen	DD_MOTOR.c	249;"	m	struct:__anoncba0feee050a::__anoncba0feee0608	typeref:typename:u8:1	file:
+b_abnormalUPhaseWireOpen	DD_MOTOR.c	410;"	m	struct:__anoncba0feee0a0a::__anoncba0feee0b08	typeref:typename:u8:1	file:
+b_abnormalVPhaseWireOpen	DD_MOTOR.c	250;"	m	struct:__anoncba0feee050a::__anoncba0feee0608	typeref:typename:u8:1	file:
+b_abnormalVPhaseWireOpen	DD_MOTOR.c	411;"	m	struct:__anoncba0feee0a0a::__anoncba0feee0b08	typeref:typename:u8:1	file:
+b_abnormalWPhaseWireOpen	DD_MOTOR.c	251;"	m	struct:__anoncba0feee050a::__anoncba0feee0608	typeref:typename:u8:1	file:
+b_abnormalWPhaseWireOpen	DD_MOTOR.c	412;"	m	struct:__anoncba0feee0a0a::__anoncba0feee0b08	typeref:typename:u8:1	file:
+b_stepResponseIsExecute	LIMIT_MOTOR.c	59;"	m	struct:__anon01695205010a::__anon016952050208	typeref:typename:u8:1	file:
+b_stepResponseIsReady	LIMIT_MOTOR.c	58;"	m	struct:__anon01695205010a::__anon016952050208	typeref:typename:u8:1	file:
+bit	DD_MOTOR.c	253;"	m	union:__anoncba0feee050a	typeref:struct:__anoncba0feee050a::__anoncba0feee0608	file:
+bit	DD_MOTOR.c	414;"	m	union:__anoncba0feee0a0a	typeref:struct:__anoncba0feee0a0a::__anoncba0feee0b08	file:
+bit	LIMIT_MOTOR.c	61;"	m	union:__anon01695205010a	typeref:struct:__anon01695205010a::__anon016952050208	file:
+byte	DD_MOTOR.c	244;"	m	union:__anoncba0feee050a	typeref:typename:u8	file:
+byte	DD_MOTOR.c	405;"	m	union:__anoncba0feee0a0a	typeref:typename:u8	file:
+byte	LIMIT_MOTOR.c	55;"	m	union:__anon01695205010a	typeref:typename:u8	file:
+en_DD_EX_dischargeMode	DD_EXCITER.c	130;"	v	typeref:typename:EN_MDC_DISCHARGE_MODE	file:
+en_DD_EX_dischargeMode	DD_EXCITER.c	86;"	v	typeref:typename:EN_MDC_DISCHARGE_MODE
+en_DD_MTR_6StepStatus	DD_MOTOR.c	113;"	v	typeref:enum:__anoncba0feee0403
+en_DD_MTR_6StepStatus	DD_MOTOR.c	274;"	v	typeref:enum:__anoncba0feee0903	file:
+en_DD_MTR_dischargeMode	DD_MOTOR.c	115;"	v	typeref:typename:EN_MDC_DISCHARGE_MODE
+en_DD_MTR_dischargeMode	DD_MOTOR.c	276;"	v	typeref:typename:EN_MDC_DISCHARGE_MODE	file:
+en_DD_MTR_iMinPhase	DD_MOTOR.c	258;"	v	typeref:typename:ENUM_DD_MTR_IMIN_PHASE	file:
+en_DD_MTR_iMinPhase	DD_MOTOR.c	97;"	v	typeref:typename:ENUM_DD_MTR_IMIN_PHASE
+en_DD_MTR_ppSearchStatus	DD_MOTOR.c	101;"	v	typeref:enum:__anoncba0feee0203
+en_DD_MTR_ppSearchStatus	DD_MOTOR.c	262;"	v	typeref:enum:__anoncba0feee0703	file:
+en_DD_MTR_wireOpenEachStatus	DD_MOTOR.c	106;"	v	typeref:enum:__anoncba0feee0303
+en_DD_MTR_wireOpenEachStatus	DD_MOTOR.c	267;"	v	typeref:enum:__anoncba0feee0803	file:
+pst_DD_EX_adValue1	DD_EXCITER.c	128;"	v	typeref:typename:ST_ADC_ADVALUE1 *	file:
+pst_DD_EX_adValue1	DD_EXCITER.c	84;"	v	typeref:typename:ST_ADC_ADVALUE1 *
+pst_DD_MTR_adValue0	DD_MOTOR.c	225;"	v	typeref:typename:ST_ADC_ADVALUE0 *
+pst_DD_MTR_adValue0	DD_MOTOR.c	386;"	v	typeref:typename:ST_ADC_ADVALUE0 *	file:
+pst_DD_MTR_dq32	DD_MOTOR.c	228;"	v	typeref:typename:ST_ADC_DQ32 *
+pst_DD_MTR_dq32	DD_MOTOR.c	389;"	v	typeref:typename:ST_ADC_DQ32 *	file:
+pst_MTR_adValueAve	MOTOR.c	135;"	v	typeref:typename:ST_ADC_ADVALUE_AVE *	file:
+pst_MTR_adValueAve	MOTOR.c	93;"	v	typeref:typename:ST_ADC_ADVALUE_AVE *
+s16_DD_EX_eCommand	DD_EXCITER.c	118;"	v	typeref:typename:s16	file:
+s16_DD_EX_eCommand	DD_EXCITER.c	74;"	v	typeref:typename:s16
+s16_DD_EX_eCommandTemp	DD_EXCITER.c	119;"	v	typeref:typename:s16	file:
+s16_DD_EX_eCommandTemp	DD_EXCITER.c	75;"	v	typeref:typename:s16
+s16_DD_EX_ifRefAtDischarge_10mA	DD_EXCITER.c	110;"	v	typeref:typename:s16	file:
+s16_DD_EX_ifRefAtDischarge_10mA	DD_EXCITER.c	66;"	v	typeref:typename:s16
+s16_DD_EX_ifRefFinal_10mA	DD_EXCITER.c	109;"	v	typeref:typename:s16	file:
+s16_DD_EX_ifRefFinal_10mA	DD_EXCITER.c	65;"	v	typeref:typename:s16
+s16_DD_EX_ifRef_10mA	DD_EXCITER.c	108;"	v	typeref:typename:s16	file:
+s16_DD_EX_ifRef_10mA	DD_EXCITER.c	64;"	v	typeref:typename:s16
+s16_DD_EX_if_10mA	DD_EXCITER.c	116;"	v	typeref:typename:s16	file:
+s16_DD_EX_if_10mA	DD_EXCITER.c	72;"	v	typeref:typename:s16
+s16_DD_EX_vf	DD_EXCITER.c	115;"	v	typeref:typename:s16	file:
+s16_DD_EX_vf	DD_EXCITER.c	71;"	v	typeref:typename:s16
+s16_DD_EX_vfMax_10mV	DD_EXCITER.c	113;"	v	typeref:typename:s16	file:
+s16_DD_EX_vfMax_10mV	DD_EXCITER.c	69;"	v	typeref:typename:s16
+s16_DD_EX_vfTemp	DD_EXCITER.c	114;"	v	typeref:typename:s16	file:
+s16_DD_EX_vfTemp	DD_EXCITER.c	70;"	v	typeref:typename:s16
+s16_DD_EX_vf_10mV	DD_EXCITER.c	117;"	v	typeref:typename:s16	file:
+s16_DD_EX_vf_10mV	DD_EXCITER.c	73;"	v	typeref:typename:s16
+s16_DD_MTR_CalcRev6Average	DD_MOTOR.c	1006;"	f	typeref:typename:s16	file:
+s16_DD_MTR_IdClarkeAndParkTransform	DD_MOTOR.c	1174;"	f	typeref:typename:s16	file:
+s16_DD_MTR_IqClarkeAndParkTransform	DD_MOTOR.c	1190;"	f	typeref:typename:s16	file:
+s16_DD_MTR_battCurrentByShunt_10mA	DD_MOTOR.c	213;"	v	typeref:typename:volatile s16
+s16_DD_MTR_battCurrentByShunt_10mA	DD_MOTOR.c	374;"	v	typeref:typename:volatile s16	file:
+s16_DD_MTR_eangleDiff_0p03125deg	DD_MOTOR.c	165;"	v	typeref:typename:volatile s16
+s16_DD_MTR_eangleDiff_0p03125deg	DD_MOTOR.c	326;"	v	typeref:typename:volatile s16	file:
+s16_DD_MTR_eangleDiff_deg	DD_MOTOR.c	164;"	v	typeref:typename:volatile s16
+s16_DD_MTR_eangleDiff_deg	DD_MOTOR.c	325;"	v	typeref:typename:volatile s16	file:
+s16_DD_MTR_iqRefFinal_100mA	DD_MOTOR.c	199;"	v	typeref:typename:s16
+s16_DD_MTR_iqRefFinal_100mA	DD_MOTOR.c	360;"	v	typeref:typename:s16	file:
+s16_DD_MTR_revolutionArray_rpm	DD_MOTOR.c	183;"	v	typeref:typename:s16[]
+s16_DD_MTR_revolutionArray_rpm	DD_MOTOR.c	344;"	v	typeref:typename:s16[]	file:
+s16_DD_MTR_revolutionAve6_rpm	DD_MOTOR.c	190;"	v	typeref:typename:s16
+s16_DD_MTR_revolutionAve6_rpm	DD_MOTOR.c	351;"	v	typeref:typename:s16	file:
+s16_DD_MTR_revolutionRaw_rpm	DD_MOTOR.c	188;"	v	typeref:typename:s16
+s16_DD_MTR_revolutionRaw_rpm	DD_MOTOR.c	349;"	v	typeref:typename:s16	file:
+s16_DD_MTR_revolution_rpm	DD_MOTOR.c	189;"	v	typeref:typename:s16
+s16_DD_MTR_revolution_rpm	DD_MOTOR.c	350;"	v	typeref:typename:s16	file:
+s16_DD_MTR_uCommand	DD_MOTOR.c	206;"	v	typeref:typename:s16
+s16_DD_MTR_uCommand	DD_MOTOR.c	367;"	v	typeref:typename:s16	file:
+s16_DD_MTR_uCommandTemp	DD_MOTOR.c	209;"	v	typeref:typename:s16
+s16_DD_MTR_uCommandTemp	DD_MOTOR.c	370;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vCommand	DD_MOTOR.c	207;"	v	typeref:typename:s16
+s16_DD_MTR_vCommand	DD_MOTOR.c	368;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vCommandTemp	DD_MOTOR.c	210;"	v	typeref:typename:s16
+s16_DD_MTR_vCommandTemp	DD_MOTOR.c	371;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vd	DD_MOTOR.c	201;"	v	typeref:typename:s16
+s16_DD_MTR_vd	DD_MOTOR.c	362;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vdMax_10mV	DD_MOTOR.c	193;"	v	typeref:typename:s16
+s16_DD_MTR_vdMax_10mV	DD_MOTOR.c	354;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vdMin_10mV	DD_MOTOR.c	195;"	v	typeref:typename:s16
+s16_DD_MTR_vdMin_10mV	DD_MOTOR.c	356;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vq	DD_MOTOR.c	202;"	v	typeref:typename:s16
+s16_DD_MTR_vq	DD_MOTOR.c	363;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vqMax_10mV	DD_MOTOR.c	194;"	v	typeref:typename:s16
+s16_DD_MTR_vqMax_10mV	DD_MOTOR.c	355;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vu	DD_MOTOR.c	203;"	v	typeref:typename:s16
+s16_DD_MTR_vu	DD_MOTOR.c	364;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vv	DD_MOTOR.c	204;"	v	typeref:typename:s16
+s16_DD_MTR_vv	DD_MOTOR.c	365;"	v	typeref:typename:s16	file:
+s16_DD_MTR_vw	DD_MOTOR.c	205;"	v	typeref:typename:s16
+s16_DD_MTR_vw	DD_MOTOR.c	366;"	v	typeref:typename:s16	file:
+s16_DD_MTR_wCommand	DD_MOTOR.c	208;"	v	typeref:typename:s16
+s16_DD_MTR_wCommand	DD_MOTOR.c	369;"	v	typeref:typename:s16	file:
+s16_DD_MTR_wCommandTemp	DD_MOTOR.c	211;"	v	typeref:typename:s16
+s16_DD_MTR_wCommandTemp	DD_MOTOR.c	372;"	v	typeref:typename:s16	file:
+s16_LIM_MTR_CalcIqLimByDischrgStopDec_100mA	LIMIT_MOTOR.c	460;"	f	typeref:typename:s16	file:
+s16_LIM_MTR_CalcTorquRefGradually	LIMIT_MOTOR.c	412;"	f	typeref:typename:s16	file:
+s16_LIM_MTR_currentMapByTorqueXarray_rpm	CURRENT_MAP.h	137;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_currentMapByTorqueXarray_rpm	CURRENT_MAP.h	18;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap10ByImYarray_deg	ENC_OFFSET_MAP.h	33;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap10ByImYarray_deg	ENC_OFFSET_MAP.h	89;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap11ByImYarray_deg	ENC_OFFSET_MAP.h	34;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap11ByImYarray_deg	ENC_OFFSET_MAP.h	91;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap12ByImYarray_deg	ENC_OFFSET_MAP.h	35;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap12ByImYarray_deg	ENC_OFFSET_MAP.h	93;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap13ByImYarray_deg	ENC_OFFSET_MAP.h	36;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap13ByImYarray_deg	ENC_OFFSET_MAP.h	95;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap14ByImYarray_deg	ENC_OFFSET_MAP.h	37;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap15ByImYarray_deg	ENC_OFFSET_MAP.h	38;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap16ByImYarray_deg	ENC_OFFSET_MAP.h	39;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap17ByImYarray_deg	ENC_OFFSET_MAP.h	40;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap18ByImYarray_deg	ENC_OFFSET_MAP.h	41;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap19ByImYarray_deg	ENC_OFFSET_MAP.h	42;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap1ByImYarray_deg	ENC_OFFSET_MAP.h	24;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap1ByImYarray_deg	ENC_OFFSET_MAP.h	71;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap20ByImYarray_deg	ENC_OFFSET_MAP.h	43;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap21ByImYarray_deg	ENC_OFFSET_MAP.h	44;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap22ByImYarray_deg	ENC_OFFSET_MAP.h	45;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap23ByImYarray_deg	ENC_OFFSET_MAP.h	46;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap24ByImYarray_deg	ENC_OFFSET_MAP.h	47;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap25ByImYarray_deg	ENC_OFFSET_MAP.h	48;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap2ByImYarray_deg	ENC_OFFSET_MAP.h	25;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap2ByImYarray_deg	ENC_OFFSET_MAP.h	73;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap3ByImYarray_deg	ENC_OFFSET_MAP.h	26;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap3ByImYarray_deg	ENC_OFFSET_MAP.h	75;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap4ByImYarray_deg	ENC_OFFSET_MAP.h	27;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap4ByImYarray_deg	ENC_OFFSET_MAP.h	77;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap5ByImYarray_deg	ENC_OFFSET_MAP.h	28;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap5ByImYarray_deg	ENC_OFFSET_MAP.h	79;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap6ByImYarray_deg	ENC_OFFSET_MAP.h	29;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap6ByImYarray_deg	ENC_OFFSET_MAP.h	81;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap7ByImYarray_deg	ENC_OFFSET_MAP.h	30;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap7ByImYarray_deg	ENC_OFFSET_MAP.h	83;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap8ByImYarray_deg	ENC_OFFSET_MAP.h	31;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap8ByImYarray_deg	ENC_OFFSET_MAP.h	85;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap9ByImYarray_deg	ENC_OFFSET_MAP.h	32;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMap9ByImYarray_deg	ENC_OFFSET_MAP.h	87;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMapByImXarray_rpm	ENC_OFFSET_MAP.h	22;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_encOffsetMapByImXarray_rpm	ENC_OFFSET_MAP.h	68;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap10ByTorqueYarray_10mA	CURRENT_MAP.h	158;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap10ByTorqueYarray_10mA	CURRENT_MAP.h	29;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap11ByTorqueYarray_10mA	CURRENT_MAP.h	160;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap11ByTorqueYarray_10mA	CURRENT_MAP.h	30;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap12ByTorqueYarray_10mA	CURRENT_MAP.h	162;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap12ByTorqueYarray_10mA	CURRENT_MAP.h	31;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap13ByTorqueYarray_10mA	CURRENT_MAP.h	164;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap13ByTorqueYarray_10mA	CURRENT_MAP.h	32;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap14ByTorqueYarray_10mA	CURRENT_MAP.h	166;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap14ByTorqueYarray_10mA	CURRENT_MAP.h	33;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap15ByTorqueYarray_10mA	CURRENT_MAP.h	168;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap15ByTorqueYarray_10mA	CURRENT_MAP.h	34;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap16ByTorqueYarray_10mA	CURRENT_MAP.h	170;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap16ByTorqueYarray_10mA	CURRENT_MAP.h	35;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap17ByTorqueYarray_10mA	CURRENT_MAP.h	172;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap17ByTorqueYarray_10mA	CURRENT_MAP.h	36;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap18ByTorqueYarray_10mA	CURRENT_MAP.h	174;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap18ByTorqueYarray_10mA	CURRENT_MAP.h	37;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap19ByTorqueYarray_10mA	CURRENT_MAP.h	176;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap19ByTorqueYarray_10mA	CURRENT_MAP.h	38;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap1ByTorqueYarray_10mA	CURRENT_MAP.h	140;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap1ByTorqueYarray_10mA	CURRENT_MAP.h	20;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap20ByTorqueYarray_10mA	CURRENT_MAP.h	178;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap20ByTorqueYarray_10mA	CURRENT_MAP.h	39;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap21ByTorqueYarray_10mA	CURRENT_MAP.h	180;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap21ByTorqueYarray_10mA	CURRENT_MAP.h	40;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap2ByTorqueYarray_10mA	CURRENT_MAP.h	142;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap2ByTorqueYarray_10mA	CURRENT_MAP.h	21;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap3ByTorqueYarray_10mA	CURRENT_MAP.h	144;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap3ByTorqueYarray_10mA	CURRENT_MAP.h	22;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap4ByTorqueYarray_10mA	CURRENT_MAP.h	146;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap4ByTorqueYarray_10mA	CURRENT_MAP.h	23;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap5ByTorqueYarray_10mA	CURRENT_MAP.h	148;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap5ByTorqueYarray_10mA	CURRENT_MAP.h	24;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap6ByTorqueYarray_10mA	CURRENT_MAP.h	150;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap6ByTorqueYarray_10mA	CURRENT_MAP.h	25;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap7ByTorqueYarray_10mA	CURRENT_MAP.h	152;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap7ByTorqueYarray_10mA	CURRENT_MAP.h	26;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap8ByTorqueYarray_10mA	CURRENT_MAP.h	154;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap8ByTorqueYarray_10mA	CURRENT_MAP.h	27;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap9ByTorqueYarray_10mA	CURRENT_MAP.h	156;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_idMap9ByTorqueYarray_10mA	CURRENT_MAP.h	28;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap10ByTorqueYarray_10mA	CURRENT_MAP.h	296;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap10ByTorqueYarray_10mA	CURRENT_MAP.h	73;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap11ByTorqueYarray_10mA	CURRENT_MAP.h	298;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap11ByTorqueYarray_10mA	CURRENT_MAP.h	74;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap12ByTorqueYarray_10mA	CURRENT_MAP.h	300;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap12ByTorqueYarray_10mA	CURRENT_MAP.h	75;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap13ByTorqueYarray_10mA	CURRENT_MAP.h	302;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap13ByTorqueYarray_10mA	CURRENT_MAP.h	76;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap14ByTorqueYarray_10mA	CURRENT_MAP.h	304;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap14ByTorqueYarray_10mA	CURRENT_MAP.h	77;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap15ByTorqueYarray_10mA	CURRENT_MAP.h	306;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap15ByTorqueYarray_10mA	CURRENT_MAP.h	78;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap16ByTorqueYarray_10mA	CURRENT_MAP.h	308;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap16ByTorqueYarray_10mA	CURRENT_MAP.h	79;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap17ByTorqueYarray_10mA	CURRENT_MAP.h	310;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap17ByTorqueYarray_10mA	CURRENT_MAP.h	80;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap18ByTorqueYarray_10mA	CURRENT_MAP.h	312;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap18ByTorqueYarray_10mA	CURRENT_MAP.h	81;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap19ByTorqueYarray_10mA	CURRENT_MAP.h	314;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap19ByTorqueYarray_10mA	CURRENT_MAP.h	82;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap1ByTorqueYarray_10mA	CURRENT_MAP.h	278;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap1ByTorqueYarray_10mA	CURRENT_MAP.h	64;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap20ByTorqueYarray_10mA	CURRENT_MAP.h	316;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap20ByTorqueYarray_10mA	CURRENT_MAP.h	83;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap21ByTorqueYarray_10mA	CURRENT_MAP.h	318;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap21ByTorqueYarray_10mA	CURRENT_MAP.h	84;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap2ByTorqueYarray_10mA	CURRENT_MAP.h	280;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap2ByTorqueYarray_10mA	CURRENT_MAP.h	65;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap3ByTorqueYarray_10mA	CURRENT_MAP.h	282;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap3ByTorqueYarray_10mA	CURRENT_MAP.h	66;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap4ByTorqueYarray_10mA	CURRENT_MAP.h	284;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap4ByTorqueYarray_10mA	CURRENT_MAP.h	67;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap5ByTorqueYarray_10mA	CURRENT_MAP.h	286;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap5ByTorqueYarray_10mA	CURRENT_MAP.h	68;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap6ByTorqueYarray_10mA	CURRENT_MAP.h	288;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap6ByTorqueYarray_10mA	CURRENT_MAP.h	69;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap7ByTorqueYarray_10mA	CURRENT_MAP.h	290;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap7ByTorqueYarray_10mA	CURRENT_MAP.h	70;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap8ByTorqueYarray_10mA	CURRENT_MAP.h	292;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap8ByTorqueYarray_10mA	CURRENT_MAP.h	71;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap9ByTorqueYarray_10mA	CURRENT_MAP.h	294;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifMap9ByTorqueYarray_10mA	CURRENT_MAP.h	72;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_ifRef_10mA	LIMIT_MOTOR.c	72;"	v	typeref:typename:s16
+s16_LIM_MTR_ifRef_10mA	LIMIT_MOTOR.c	90;"	v	typeref:typename:s16	file:
+s16_LIM_MTR_iqMap10ByTorqueYarray_10mA	CURRENT_MAP.h	227;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap10ByTorqueYarray_10mA	CURRENT_MAP.h	51;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap11ByTorqueYarray_10mA	CURRENT_MAP.h	229;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap11ByTorqueYarray_10mA	CURRENT_MAP.h	52;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap12ByTorqueYarray_10mA	CURRENT_MAP.h	231;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap12ByTorqueYarray_10mA	CURRENT_MAP.h	53;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap13ByTorqueYarray_10mA	CURRENT_MAP.h	233;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap13ByTorqueYarray_10mA	CURRENT_MAP.h	54;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap14ByTorqueYarray_10mA	CURRENT_MAP.h	235;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap14ByTorqueYarray_10mA	CURRENT_MAP.h	55;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap15ByTorqueYarray_10mA	CURRENT_MAP.h	237;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap15ByTorqueYarray_10mA	CURRENT_MAP.h	56;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap16ByTorqueYarray_10mA	CURRENT_MAP.h	239;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap16ByTorqueYarray_10mA	CURRENT_MAP.h	57;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap17ByTorqueYarray_10mA	CURRENT_MAP.h	241;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap17ByTorqueYarray_10mA	CURRENT_MAP.h	58;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap18ByTorqueYarray_10mA	CURRENT_MAP.h	243;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap18ByTorqueYarray_10mA	CURRENT_MAP.h	59;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap19ByTorqueYarray_10mA	CURRENT_MAP.h	245;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap19ByTorqueYarray_10mA	CURRENT_MAP.h	60;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap1ByTorqueYarray_10mA	CURRENT_MAP.h	209;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap1ByTorqueYarray_10mA	CURRENT_MAP.h	42;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap20ByTorqueYarray_10mA	CURRENT_MAP.h	247;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap20ByTorqueYarray_10mA	CURRENT_MAP.h	61;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap21ByTorqueYarray_10mA	CURRENT_MAP.h	249;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap21ByTorqueYarray_10mA	CURRENT_MAP.h	62;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap2ByTorqueYarray_10mA	CURRENT_MAP.h	211;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap2ByTorqueYarray_10mA	CURRENT_MAP.h	43;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap3ByTorqueYarray_10mA	CURRENT_MAP.h	213;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap3ByTorqueYarray_10mA	CURRENT_MAP.h	44;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap4ByTorqueYarray_10mA	CURRENT_MAP.h	215;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap4ByTorqueYarray_10mA	CURRENT_MAP.h	45;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap5ByTorqueYarray_10mA	CURRENT_MAP.h	217;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap5ByTorqueYarray_10mA	CURRENT_MAP.h	46;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap6ByTorqueYarray_10mA	CURRENT_MAP.h	219;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap6ByTorqueYarray_10mA	CURRENT_MAP.h	47;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap7ByTorqueYarray_10mA	CURRENT_MAP.h	221;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap7ByTorqueYarray_10mA	CURRENT_MAP.h	48;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap8ByTorqueYarray_10mA	CURRENT_MAP.h	223;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap8ByTorqueYarray_10mA	CURRENT_MAP.h	49;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap9ByTorqueYarray_10mA	CURRENT_MAP.h	225;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_iqMap9ByTorqueYarray_10mA	CURRENT_MAP.h	50;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap10ByTorqueYarray_deg	CURRENT_MAP.h	365;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap10ByTorqueYarray_deg	CURRENT_MAP.h	95;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap11ByTorqueYarray_deg	CURRENT_MAP.h	367;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap11ByTorqueYarray_deg	CURRENT_MAP.h	96;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap12ByTorqueYarray_deg	CURRENT_MAP.h	369;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap12ByTorqueYarray_deg	CURRENT_MAP.h	97;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap13ByTorqueYarray_deg	CURRENT_MAP.h	371;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap13ByTorqueYarray_deg	CURRENT_MAP.h	98;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap14ByTorqueYarray_deg	CURRENT_MAP.h	373;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap14ByTorqueYarray_deg	CURRENT_MAP.h	99;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap15ByTorqueYarray_deg	CURRENT_MAP.h	100;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap15ByTorqueYarray_deg	CURRENT_MAP.h	375;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap16ByTorqueYarray_deg	CURRENT_MAP.h	101;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap16ByTorqueYarray_deg	CURRENT_MAP.h	377;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap17ByTorqueYarray_deg	CURRENT_MAP.h	102;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap17ByTorqueYarray_deg	CURRENT_MAP.h	379;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap18ByTorqueYarray_deg	CURRENT_MAP.h	103;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap18ByTorqueYarray_deg	CURRENT_MAP.h	381;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap19ByTorqueYarray_deg	CURRENT_MAP.h	104;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap19ByTorqueYarray_deg	CURRENT_MAP.h	383;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap1ByTorqueYarray_deg	CURRENT_MAP.h	347;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap1ByTorqueYarray_deg	CURRENT_MAP.h	86;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap20ByTorqueYarray_deg	CURRENT_MAP.h	105;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap20ByTorqueYarray_deg	CURRENT_MAP.h	385;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap21ByTorqueYarray_deg	CURRENT_MAP.h	106;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap21ByTorqueYarray_deg	CURRENT_MAP.h	387;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap2ByTorqueYarray_deg	CURRENT_MAP.h	349;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap2ByTorqueYarray_deg	CURRENT_MAP.h	87;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap3ByTorqueYarray_deg	CURRENT_MAP.h	351;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap3ByTorqueYarray_deg	CURRENT_MAP.h	88;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap4ByTorqueYarray_deg	CURRENT_MAP.h	353;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap4ByTorqueYarray_deg	CURRENT_MAP.h	89;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap5ByTorqueYarray_deg	CURRENT_MAP.h	355;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap5ByTorqueYarray_deg	CURRENT_MAP.h	90;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap6ByTorqueYarray_deg	CURRENT_MAP.h	357;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap6ByTorqueYarray_deg	CURRENT_MAP.h	91;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap7ByTorqueYarray_deg	CURRENT_MAP.h	359;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap7ByTorqueYarray_deg	CURRENT_MAP.h	92;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap8ByTorqueYarray_deg	CURRENT_MAP.h	361;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap8ByTorqueYarray_deg	CURRENT_MAP.h	93;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap9ByTorqueYarray_deg	CURRENT_MAP.h	363;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_offsetMap9ByTorqueYarray_deg	CURRENT_MAP.h	94;"	v	typeref:typename:const s16[]
+s16_LIM_MTR_revolutionAve_rpm	LIMIT_MOTOR.c	75;"	v	typeref:typename:s16
+s16_LIM_MTR_revolutionAve_rpm	LIMIT_MOTOR.c	93;"	v	typeref:typename:s16	file:
+s16_LIM_MTR_revolution_rpm	LIMIT_MOTOR.c	74;"	v	typeref:typename:volatile s16
+s16_LIM_MTR_revolution_rpm	LIMIT_MOTOR.c	92;"	v	typeref:typename:volatile s16	file:
+s16_LIM_MTR_torqueRefLast_100mNm	LIMIT_MOTOR.c	78;"	v	typeref:typename:volatile s16
+s16_LIM_MTR_torqueRefLast_100mNm	LIMIT_MOTOR.c	96;"	v	typeref:typename:volatile s16	file:
+s16_LIM_MTR_torqueRefTemp1_100mNm	LIMIT_MOTOR.c	77;"	v	typeref:typename:s16
+s16_LIM_MTR_torqueRefTemp1_100mNm	LIMIT_MOTOR.c	95;"	v	typeref:typename:s16	file:
+s16_LIM_MTR_torqueRefTemp_100mNm	LIMIT_MOTOR.c	79;"	v	typeref:typename:volatile s16
+s16_LIM_MTR_torqueRefTemp_100mNm	LIMIT_MOTOR.c	97;"	v	typeref:typename:volatile s16	file:
+s16_LIM_MTR_torqueRef_100mNm	LIMIT_MOTOR.c	76;"	v	typeref:typename:s16
+s16_LIM_MTR_torqueRef_100mNm	LIMIT_MOTOR.c	94;"	v	typeref:typename:s16	file:
+s16_MTR_idRef_100mA	MOTOR.c	115;"	v	typeref:typename:s16	file:
+s16_MTR_idRef_100mA	MOTOR.c	73;"	v	typeref:typename:s16
+s16_MTR_ifFbAve_10mA	MOTOR.c	110;"	v	typeref:typename:s16	file:
+s16_MTR_ifFbAve_10mA	MOTOR.c	68;"	v	typeref:typename:s16
+s16_MTR_ifFb_10mA	MOTOR.c	109;"	v	typeref:typename:s16	file:
+s16_MTR_ifFb_10mA	MOTOR.c	67;"	v	typeref:typename:s16
+s16_MTR_iqRef_100mA	MOTOR.c	116;"	v	typeref:typename:s16	file:
+s16_MTR_iqRef_100mA	MOTOR.c	74;"	v	typeref:typename:s16
+s16_MTR_revolutionAve_rpm	MOTOR.c	127;"	v	typeref:typename:s16	file:
+s16_MTR_revolutionAve_rpm	MOTOR.c	85;"	v	typeref:typename:s16
+s16_MTR_torqueRef_100mNm	MOTOR.c	113;"	v	typeref:typename:s16	file:
+s16_MTR_torqueRef_100mNm	MOTOR.c	71;"	v	typeref:typename:s16
+s16_TAB_Sin	SIN_TABLE.h	12;"	v	typeref:typename:const s16[]
+s16_uCommand	TYPEDEF_MOTOR.h	31;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_uCommandTemp	TYPEDEF_MOTOR.h	34;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vCommand	TYPEDEF_MOTOR.h	32;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vCommandTemp	TYPEDEF_MOTOR.h	35;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vd	TYPEDEF_MOTOR.h	26;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vq	TYPEDEF_MOTOR.h	27;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vu	TYPEDEF_MOTOR.h	28;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vv	TYPEDEF_MOTOR.h	29;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_vw	TYPEDEF_MOTOR.h	30;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_wCommand	TYPEDEF_MOTOR.h	33;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s16_wCommandTemp	TYPEDEF_MOTOR.h	36;"	m	struct:__anonb4cb1a3c0208	typeref:typename:s16
+s32_DD_EX_integralVf_10mV	DD_EXCITER.c	111;"	v	typeref:typename:s32	file:
+s32_DD_EX_integralVf_10mV	DD_EXCITER.c	67;"	v	typeref:typename:s32
+s32_DD_MTR_ctPpMAX_10mA	DD_MOTOR.c	130;"	v	typeref:typename:s32
+s32_DD_MTR_ctPpMAX_10mA	DD_MOTOR.c	291;"	v	typeref:typename:s32	file:
+s32_DD_MTR_ctPpMIN_10mA	DD_MOTOR.c	131;"	v	typeref:typename:s32
+s32_DD_MTR_ctPpMIN_10mA	DD_MOTOR.c	292;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iUBtmBuff_10mA	DD_MOTOR.c	127;"	v	typeref:typename:s32
+s32_DD_MTR_iUBtmBuff_10mA	DD_MOTOR.c	288;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iUPp_10mA	DD_MOTOR.c	121;"	v	typeref:typename:s32
+s32_DD_MTR_iUPp_10mA	DD_MOTOR.c	282;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iUTopBuff_10mA	DD_MOTOR.c	124;"	v	typeref:typename:s32
+s32_DD_MTR_iUTopBuff_10mA	DD_MOTOR.c	285;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iVBtmBuff_10mA	DD_MOTOR.c	128;"	v	typeref:typename:s32
+s32_DD_MTR_iVBtmBuff_10mA	DD_MOTOR.c	289;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iVPp_10mA	DD_MOTOR.c	122;"	v	typeref:typename:s32
+s32_DD_MTR_iVPp_10mA	DD_MOTOR.c	283;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iVTopBuff_10mA	DD_MOTOR.c	125;"	v	typeref:typename:s32
+s32_DD_MTR_iVTopBuff_10mA	DD_MOTOR.c	286;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iWBtmBuff_10mA	DD_MOTOR.c	129;"	v	typeref:typename:s32
+s32_DD_MTR_iWBtmBuff_10mA	DD_MOTOR.c	290;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iWPp_10mA	DD_MOTOR.c	123;"	v	typeref:typename:s32
+s32_DD_MTR_iWPp_10mA	DD_MOTOR.c	284;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iWTopBuff_10mA	DD_MOTOR.c	126;"	v	typeref:typename:s32
+s32_DD_MTR_iWTopBuff_10mA	DD_MOTOR.c	287;"	v	typeref:typename:s32	file:
+s32_DD_MTR_idRefFinal_10mA	DD_MOTOR.c	197;"	v	typeref:typename:s32
+s32_DD_MTR_idRefFinal_10mA	DD_MOTOR.c	358;"	v	typeref:typename:s32	file:
+s32_DD_MTR_imLim_10mA	DD_MOTOR.c	196;"	v	typeref:typename:s32
+s32_DD_MTR_imLim_10mA	DD_MOTOR.c	357;"	v	typeref:typename:s32	file:
+s32_DD_MTR_integralVd_10mV	DD_MOTOR.c	149;"	v	typeref:typename:s32
+s32_DD_MTR_integralVd_10mV	DD_MOTOR.c	310;"	v	typeref:typename:s32	file:
+s32_DD_MTR_integralVq_10mV	DD_MOTOR.c	150;"	v	typeref:typename:s32
+s32_DD_MTR_integralVq_10mV	DD_MOTOR.c	311;"	v	typeref:typename:s32	file:
+s32_DD_MTR_iqRefFinal_10mA	DD_MOTOR.c	198;"	v	typeref:typename:s32
+s32_DD_MTR_iqRefFinal_10mA	DD_MOTOR.c	359;"	v	typeref:typename:s32	file:
+s32_LIM_MTR_idRef_10mA	LIMIT_MOTOR.c	71;"	v	typeref:typename:s32
+s32_LIM_MTR_idRef_10mA	LIMIT_MOTOR.c	89;"	v	typeref:typename:s32	file:
+s32_LIM_MTR_iqRef_10mA	LIMIT_MOTOR.c	70;"	v	typeref:typename:s32
+s32_LIM_MTR_iqRef_10mA	LIMIT_MOTOR.c	88;"	v	typeref:typename:s32	file:
+s32_MTR_CalcImRms_10mA	MOTOR.c	423;"	f	typeref:typename:s32	file:
+s32_MTR_idRef_10mA	MOTOR.c	119;"	v	typeref:typename:s32	file:
+s32_MTR_idRef_10mA	MOTOR.c	77;"	v	typeref:typename:s32
+s32_MTR_imRms_10mA	MOTOR.c	122;"	v	typeref:typename:s32	file:
+s32_MTR_imRms_10mA	MOTOR.c	80;"	v	typeref:typename:s32
+s32_MTR_iqRef_10mA	MOTOR.c	120;"	v	typeref:typename:s32	file:
+s32_MTR_iqRef_10mA	MOTOR.c	78;"	v	typeref:typename:s32
+s32_ctPpMAX_10mA	TYPEDEF_MOTOR.h	49;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_ctPpMIN_10mA	TYPEDEF_MOTOR.h	50;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iUBtmBuff_10mA	TYPEDEF_MOTOR.h	46;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iUPp_10mA	TYPEDEF_MOTOR.h	40;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iUTopBuff_10mA	TYPEDEF_MOTOR.h	43;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iU_10mA	TYPEDEF_MOTOR.h	20;"	m	struct:__anonb4cb1a3c0108	typeref:typename:s32
+s32_iVBtmBuff_10mA	TYPEDEF_MOTOR.h	47;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iVPp_10mA	TYPEDEF_MOTOR.h	41;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iVTopBuff_10mA	TYPEDEF_MOTOR.h	44;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iV_10mA	TYPEDEF_MOTOR.h	21;"	m	struct:__anonb4cb1a3c0108	typeref:typename:s32
+s32_iWBtmBuff_10mA	TYPEDEF_MOTOR.h	48;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iWPp_10mA	TYPEDEF_MOTOR.h	42;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iWTopBuff_10mA	TYPEDEF_MOTOR.h	45;"	m	struct:__anonb4cb1a3c0308	typeref:typename:s32
+s32_iW_10mA	TYPEDEF_MOTOR.h	22;"	m	struct:__anonb4cb1a3c0108	typeref:typename:s32
+s8_DD_MTR_rotorVibrationCounter	DD_MOTOR.c	178;"	v	typeref:typename:s8
+s8_DD_MTR_rotorVibrationCounter	DD_MOTOR.c	339;"	v	typeref:typename:s8	file:
+st_DD_EX_adValue1	DD_EXCITER.c	127;"	v	typeref:typename:ST_ADC_ADVALUE1	file:
+st_DD_EX_adValue1	DD_EXCITER.c	83;"	v	typeref:typename:ST_ADC_ADVALUE1
+st_DD_MTR_adValue0	DD_MOTOR.c	224;"	v	typeref:typename:ST_ADC_ADVALUE0
+st_DD_MTR_adValue0	DD_MOTOR.c	385;"	v	typeref:typename:ST_ADC_ADVALUE0	file:
+st_DD_MTR_dq32	DD_MOTOR.c	227;"	v	typeref:typename:ST_ADC_DQ32
+st_DD_MTR_dq32	DD_MOTOR.c	388;"	v	typeref:typename:ST_ADC_DQ32	file:
+st_DD_MTR_phaseCurrent	DD_MOTOR.c	230;"	v	typeref:typename:ST_MTR_PHASE_CURRENT
+st_DD_MTR_phaseCurrent	DD_MOTOR.c	391;"	v	typeref:typename:ST_MTR_PHASE_CURRENT	file:
+st_MTR_adValueAve	MOTOR.c	134;"	v	typeref:typename:ST_ADC_ADVALUE_AVE	file:
+st_MTR_adValueAve	MOTOR.c	92;"	v	typeref:typename:ST_ADC_ADVALUE_AVE
+st_MTR_resultIf_10mA	MOTOR.c	125;"	v	typeref:typename:ST_CMF_RESULT_IIRF_S16	file:
+st_MTR_resultIf_10mA	MOTOR.c	83;"	v	typeref:typename:ST_CMF_RESULT_IIRF_S16
+st_MTR_resultREVOLUTION	MOTOR.c	126;"	v	typeref:typename:ST_CMF_RESULT_IIRF_S16	file:
+st_MTR_resultREVOLUTION	MOTOR.c	84;"	v	typeref:typename:ST_CMF_RESULT_IIRF_S16
+u16_DD_EX_integralGain	DD_EXCITER.c	100;"	v	typeref:typename:u16	file:
+u16_DD_EX_integralGain	DD_EXCITER.c	56;"	v	typeref:typename:u16
+u16_DD_EX_proportionalGain	DD_EXCITER.c	55;"	v	typeref:typename:u16
+u16_DD_EX_proportionalGain	DD_EXCITER.c	99;"	v	typeref:typename:u16	file:
+u16_DD_EX_pwmTimerMax	DD_EXCITER.c	121;"	v	typeref:typename:u16	file:
+u16_DD_EX_pwmTimerMax	DD_EXCITER.c	77;"	v	typeref:typename:u16
+u16_DD_EX_pwmTimerMin	DD_EXCITER.c	122;"	v	typeref:typename:u16	file:
+u16_DD_EX_pwmTimerMin	DD_EXCITER.c	78;"	v	typeref:typename:u16
+u16_DD_MTR_EstimateEAngle	DD_MOTOR.c	543;"	f	typeref:typename:u16	file:
+u16_DD_MTR_battVoltAve_10mV	DD_MOTOR.c	216;"	v	typeref:typename:volatile u16
+u16_DD_MTR_battVoltAve_10mV	DD_MOTOR.c	377;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_battVoltRaw_10mV	DD_MOTOR.c	215;"	v	typeref:typename:volatile u16
+u16_DD_MTR_battVoltRaw_10mV	DD_MOTOR.c	376;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_battVolt_10mV	DD_MOTOR.c	214;"	v	typeref:typename:u16
+u16_DD_MTR_battVolt_10mV	DD_MOTOR.c	375;"	v	typeref:typename:u16	file:
+u16_DD_MTR_dAxisIntegralGain	DD_MOTOR.c	137;"	v	typeref:typename:u16
+u16_DD_MTR_dAxisIntegralGain	DD_MOTOR.c	298;"	v	typeref:typename:u16	file:
+u16_DD_MTR_dAxisProportionalGain	DD_MOTOR.c	136;"	v	typeref:typename:u16
+u16_DD_MTR_dAxisProportionalGain	DD_MOTOR.c	297;"	v	typeref:typename:u16	file:
+u16_DD_MTR_dIGainTemp	DD_MOTOR.c	141;"	v	typeref:typename:u16
+u16_DD_MTR_dIGainTemp	DD_MOTOR.c	302;"	v	typeref:typename:u16	file:
+u16_DD_MTR_dPGainTemp	DD_MOTOR.c	140;"	v	typeref:typename:u16
+u16_DD_MTR_dPGainTemp	DD_MOTOR.c	301;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangleBase_deg	DD_MOTOR.c	166;"	v	typeref:typename:u16
+u16_DD_MTR_eangleBase_deg	DD_MOTOR.c	327;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangleLast_0p03125deg	DD_MOTOR.c	163;"	v	typeref:typename:volatile u16
+u16_DD_MTR_eangleLast_0p03125deg	DD_MOTOR.c	324;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_eangleLast_deg	DD_MOTOR.c	162;"	v	typeref:typename:volatile u16
+u16_DD_MTR_eangleLast_deg	DD_MOTOR.c	323;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_eangleMapOffset_0p03125deg	DD_MOTOR.c	174;"	v	typeref:typename:u16
+u16_DD_MTR_eangleMapOffset_0p03125deg	DD_MOTOR.c	335;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangleMax_0p03125deg	DD_MOTOR.c	161;"	v	typeref:typename:u16
+u16_DD_MTR_eangleMax_0p03125deg	DD_MOTOR.c	322;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangleOffsetForTest_0p03125deg	DD_MOTOR.c	175;"	v	typeref:typename:u16
+u16_DD_MTR_eangleOffsetForTest_0p03125deg	DD_MOTOR.c	336;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangleOffset_0p03125deg	DD_MOTOR.c	173;"	v	typeref:typename:u16
+u16_DD_MTR_eangleOffset_0p03125deg	DD_MOTOR.c	334;"	v	typeref:typename:u16	file:
+u16_DD_MTR_eangle_0p03125deg	DD_MOTOR.c	160;"	v	typeref:typename:u16
+u16_DD_MTR_eangle_0p03125deg	DD_MOTOR.c	321;"	v	typeref:typename:u16	file:
+u16_DD_MTR_encCyclePwm	DD_MOTOR.c	219;"	v	typeref:typename:u16
+u16_DD_MTR_encCyclePwm	DD_MOTOR.c	380;"	v	typeref:typename:u16	file:
+u16_DD_MTR_encCyclePwmCounter	DD_MOTOR.c	220;"	v	typeref:typename:u16
+u16_DD_MTR_encCyclePwmCounter	DD_MOTOR.c	381;"	v	typeref:typename:u16	file:
+u16_DD_MTR_encCyclePwmCounterLast	DD_MOTOR.c	221;"	v	typeref:typename:volatile u16
+u16_DD_MTR_encCyclePwmCounterLast	DD_MOTOR.c	382;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_encPatternTable	DD_MOTOR.h	41;"	v	typeref:struct:ST_ENC_PATTERN_TABLE const[8]
+u16_DD_MTR_estimateEangleDelta	DD_MOTOR.c	167;"	v	typeref:typename:u16
+u16_DD_MTR_estimateEangleDelta	DD_MOTOR.c	328;"	v	typeref:typename:u16	file:
+u16_DD_MTR_estimateEangleMax_0p03125deg	DD_MOTOR.c	169;"	v	typeref:typename:u16
+u16_DD_MTR_estimateEangleMax_0p03125deg	DD_MOTOR.c	330;"	v	typeref:typename:u16	file:
+u16_DD_MTR_estimateEangleSum	DD_MOTOR.c	170;"	v	typeref:typename:u16
+u16_DD_MTR_estimateEangleSum	DD_MOTOR.c	331;"	v	typeref:typename:u16	file:
+u16_DD_MTR_estimateEangle_0p03125deg	DD_MOTOR.c	168;"	v	typeref:typename:u16
+u16_DD_MTR_estimateEangle_0p03125deg	DD_MOTOR.c	329;"	v	typeref:typename:u16	file:
+u16_DD_MTR_invVolt_10mV	DD_MOTOR.c	217;"	v	typeref:typename:volatile u16
+u16_DD_MTR_invVolt_10mV	DD_MOTOR.c	378;"	v	typeref:typename:volatile u16	file:
+u16_DD_MTR_lowSpdEstimateEangleDelta	DD_MOTOR.c	171;"	v	typeref:typename:u16
+u16_DD_MTR_lowSpdEstimateEangleDelta	DD_MOTOR.c	332;"	v	typeref:typename:u16	file:
+u16_DD_MTR_lowSpdEstimateEangleSum	DD_MOTOR.c	172;"	v	typeref:typename:u16
+u16_DD_MTR_lowSpdEstimateEangleSum	DD_MOTOR.c	333;"	v	typeref:typename:u16	file:
+u16_DD_MTR_qAxisIntegralGain	DD_MOTOR.c	139;"	v	typeref:typename:u16
+u16_DD_MTR_qAxisIntegralGain	DD_MOTOR.c	300;"	v	typeref:typename:u16	file:
+u16_DD_MTR_qAxisProportionalGain	DD_MOTOR.c	138;"	v	typeref:typename:u16
+u16_DD_MTR_qAxisProportionalGain	DD_MOTOR.c	299;"	v	typeref:typename:u16	file:
+u16_DD_MTR_qIGainTemp	DD_MOTOR.c	143;"	v	typeref:typename:u16
+u16_DD_MTR_qIGainTemp	DD_MOTOR.c	304;"	v	typeref:typename:u16	file:
+u16_DD_MTR_qPGainTemp	DD_MOTOR.c	142;"	v	typeref:typename:u16
+u16_DD_MTR_qPGainTemp	DD_MOTOR.c	303;"	v	typeref:typename:u16	file:
+u16_DD_MTR_wireOpenJudgeCount_62p5us	DD_MOTOR.c	134;"	v	typeref:typename:u16
+u16_DD_MTR_wireOpenJudgeCount_62p5us	DD_MOTOR.c	295;"	v	typeref:typename:u16	file:
+u16_MTR_dKPXarray_10mA	MOTOR.c	39;"	v	typeref:typename:const u16[]
+u16_MTR_dKPYarray	MOTOR.c	40;"	v	typeref:typename:const u16[]
+u16_MTR_dPGainTemp	MOTOR.c	128;"	v	typeref:typename:u16	file:
+u16_MTR_dPGainTemp	MOTOR.c	86;"	v	typeref:typename:u16
+u16_MTR_imFbAve_100mA	MOTOR.c	117;"	v	typeref:typename:u16	file:
+u16_MTR_imFbAve_100mA	MOTOR.c	75;"	v	typeref:typename:u16
+u16_MTR_imRef_100mA	MOTOR.c	111;"	v	typeref:typename:volatile u16	file:
+u16_MTR_imRef_100mA	MOTOR.c	69;"	v	typeref:typename:volatile u16
+u16_MTR_qKPXarray_10mA	MOTOR.c	42;"	v	typeref:typename:const u16[]
+u16_MTR_qKPYarray	MOTOR.c	43;"	v	typeref:typename:const u16[]
+u16_MTR_qPGainTemp	MOTOR.c	129;"	v	typeref:typename:u16	file:
+u16_MTR_qPGainTemp	MOTOR.c	87;"	v	typeref:typename:u16
+u16_TAB_imLim	IMLIMIT_TABLE.h	18;"	v	typeref:typename:const u16[]
+u16_TAB_vqLim	VQLIMIT_TABLE - コピー (2).h	13;"	v	typeref:typename:const u16[]
+u16_TAB_vqLim	VQLIMIT_TABLE - コピー (3).h	14;"	v	typeref:typename:const u16[]
+u16_TAB_vqLim	VQLIMIT_TABLE - コピー (3).h	351;"	v	typeref:typename:const u16[]
+u16_TAB_vqLim	VQLIMIT_TABLE - コピー.h	13;"	v	typeref:typename:const u16[]
+u16_TAB_vqLim	VQLIMIT_TABLE.h	12;"	v	typeref:typename:const u16[]
+u16_eangleBase	DD_MOTOR.h	29;"	m	struct:ST_ENC_PATTERN_TABLE	typeref:typename:const u16
+u16_encPatternNormalRotate	DD_MOTOR.h	27;"	m	struct:ST_ENC_PATTERN_TABLE	typeref:typename:const u16
+u16_encPatternReverseRotate	DD_MOTOR.h	28;"	m	struct:ST_ENC_PATTERN_TABLE	typeref:typename:const u16
+u32_DD_MTR_encTimerValue60	DD_MOTOR.c	159;"	v	typeref:typename:u32
+u32_DD_MTR_encTimerValue60	DD_MOTOR.c	320;"	v	typeref:typename:u32	file:
+u32_MTR_CalcImAve_10mA	MOTOR.c	403;"	f	typeref:typename:u32	file:
+u32_MTR_CalcVmAve_10mV	MOTOR.c	384;"	f	typeref:typename:u32	file:
+u32_MTR_imFbAve_10mA	MOTOR.c	121;"	v	typeref:typename:u32	file:
+u32_MTR_imFbAve_10mA	MOTOR.c	79;"	v	typeref:typename:u32
+u32_MTR_imRef_10mA	MOTOR.c	123;"	v	typeref:typename:volatile u32	file:
+u32_MTR_imRef_10mA	MOTOR.c	81;"	v	typeref:typename:volatile u32
+u8_DD_EX_ad1FinishedCounterMax	DD_EXCITER.c	53;"	v	typeref:typename:u8
+u8_DD_EX_ad1FinishedCounterMax	DD_EXCITER.c	97;"	v	typeref:typename:u8	file:
+u8_DD_EX_overCurrentJudgeCount	DD_EXCITER.c	124;"	v	typeref:typename:u8	file:
+u8_DD_EX_overCurrentJudgeCount	DD_EXCITER.c	80;"	v	typeref:typename:u8
+u8_DD_MTR_ad0FinishedCounterMax	DD_MOTOR.c	119;"	v	typeref:typename:u8
+u8_DD_MTR_ad0FinishedCounterMax	DD_MOTOR.c	280;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encAbnormalCount	DD_MOTOR.c	187;"	v	typeref:typename:u8
+u8_DD_MTR_encAbnormalCount	DD_MOTOR.c	348;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encNormalRotateCounter	DD_MOTOR.c	158;"	v	typeref:typename:u8
+u8_DD_MTR_encNormalRotateCounter	DD_MOTOR.c	319;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encPattern	DD_MOTOR.c	152;"	v	typeref:typename:u8
+u8_DD_MTR_encPattern	DD_MOTOR.c	313;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encPatternChecker	DD_MOTOR.c	222;"	v	typeref:typename:u8[6]
+u8_DD_MTR_encPatternChecker	DD_MOTOR.c	383;"	v	typeref:typename:u8[6]	file:
+u8_DD_MTR_encPatternLast	DD_MOTOR.c	153;"	v	typeref:typename:u8
+u8_DD_MTR_encPatternLast	DD_MOTOR.c	314;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encPhaseCountForPpDetection	DD_MOTOR.c	133;"	v	typeref:typename:u8
+u8_DD_MTR_encPhaseCountForPpDetection	DD_MOTOR.c	294;"	v	typeref:typename:u8	file:
+u8_DD_MTR_encReverseRotateCounter	DD_MOTOR.c	157;"	v	typeref:typename:u8
+u8_DD_MTR_encReverseRotateCounter	DD_MOTOR.c	318;"	v	typeref:typename:u8	file:
+u8_DD_MTR_overCurrentJudgeCount	DD_MOTOR.c	186;"	v	typeref:typename:u8
+u8_DD_MTR_overCurrentJudgeCount	DD_MOTOR.c	347;"	v	typeref:typename:u8	file:
+u8_LIM_MTR_quadrant	LIMIT_MOTOR.c	80;"	v	typeref:typename:u8
+u8_LIM_MTR_quadrant	LIMIT_MOTOR.c	98;"	v	typeref:typename:u8	file:
+u8_MTR_CalcVoltageUtilizationRate_percent	MOTOR.c	458;"	f	typeref:typename:u8	file:
+u8_MTR_voltageUtilizationRate_percent	MOTOR.c	132;"	v	typeref:typename:volatile u8	file:
+u8_MTR_voltageUtilizationRate_percent	MOTOR.c	90;"	v	typeref:typename:volatile u8
+u8_revTimeConstFactor	MOTOR.c	130;"	v	typeref:typename:u8	file:
+u8_revTimeConstFactor	MOTOR.c	88;"	v	typeref:typename:u8
+uni_DD_MTR_abnormalFlg	DD_MOTOR.c	254;"	v	typeref:union:__anoncba0feee050a
+uni_DD_MTR_abnormalFlg	DD_MOTOR.c	415;"	v	typeref:union:__anoncba0feee0a0a
+uni_LIM_MTR_stepResponseFlg	LIMIT_MOTOR.c	66;"	v	typeref:typename:UNI_LIM_MTR_STEPRESPONSEFLG
+uni_LIM_MTR_stepResponseFlg	LIMIT_MOTOR.c	84;"	v	typeref:typename:UNI_LIM_MTR_STEPRESPONSEFLG	file:
+uni_MTR_vcuCommand	MOTOR.c	137;"	v	typeref:typename:UNI_VCU_COMMAND	file:
+uni_MTR_vcuCommand	MOTOR.c	95;"	v	typeref:typename:UNI_VCU_COMMAND
+v_DD_EX_ClipVoltageCommand	DD_EXCITER.c	492;"	f	typeref:typename:void	file:
+v_DD_EX_CurrentPIControl	DD_EXCITER.c	390;"	f	typeref:typename:void	file:
+v_DD_EX_DetectOverCurrent	DD_EXCITER.c	218;"	f	typeref:typename:void	file:
+v_DD_MTR_CalcCurrentPp	DD_MOTOR.c	1705;"	f	typeref:typename:void	file:
+v_DD_MTR_CalcMotorRevolution_rpm	DD_MOTOR.c	935;"	f	typeref:typename:void	file:
+v_DD_MTR_CheckRotorDirection	DD_MOTOR.c	691;"	f	typeref:typename:void	file:
+v_DD_MTR_CheckRotorVivration	DD_MOTOR.c	720;"	f	typeref:typename:void	file:
+v_DD_MTR_ClipVoltageCommand	DD_MOTOR.c	1600;"	f	typeref:typename:void	file:
+v_DD_MTR_CurrentPIControl	DD_MOTOR.c	1204;"	f	typeref:typename:void	file:
+v_DD_MTR_DaOutput	DD_MOTOR.c	1927;"	f	typeref:typename:void	file:
+v_DD_MTR_DeadtimeCompensation	DD_MOTOR.c	1484;"	f	typeref:typename:void	file:
+v_DD_MTR_DetectOverCurrent	DD_MOTOR.c	879;"	f	typeref:typename:void	file:
+v_DD_MTR_DetectWireOpen	DD_MOTOR.c	1801;"	f	typeref:typename:void	file:
+v_DD_MTR_EstimateEangleAtLowSpd	DD_MOTOR.c	833;"	f	typeref:typename:void	file:
+v_DD_MTR_EstimateEangleAtNormalSpd	DD_MOTOR.c	789;"	f	typeref:typename:void	file:
+v_DD_MTR_InverseParkAndClarkeTransform	DD_MOTOR.c	1424;"	f	typeref:typename:void	file:
+v_DD_MTR_IsEncPatternChanged	DD_MOTOR.c	608;"	f	typeref:typename:void	file:
+v_DD_MTR_IsEncPatternNotChanged	DD_MOTOR.c	750;"	f	typeref:typename:void	file:
+v_DD_MTR_MonitoringBattVolt	DD_MOTOR.c	1652;"	f	typeref:typename:void	file:
+v_DD_MTR_OverModulation	DD_MOTOR.c	1444;"	f	typeref:typename:void	file:
+v_DD_MTR_RevolutionClear	DD_MOTOR.c	1036;"	f	typeref:typename:void	file:
+v_LIM_MTR_SetIdIqIfRef	LIMIT_MOTOR.c	338;"	f	typeref:typename:void	file:
+v_MTR_AdjustmentCtOffset	MOTOR.c	334;"	f	typeref:typename:void	file:
+v_MTR_CalcImRef_10mA	MOTOR.c	437;"	f	typeref:typename:void	file:

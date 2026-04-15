@@ -1,0 +1,178 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/feffe43a/
+B_CAN_GetKeySwStatus	CAN.c	904;"	f	typeref:typename:bool
+B_CAN_IsVcuAbnormal	CAN.c	934;"	f	typeref:typename:bool
+CAN0_RXM0_ISR	CAN.c	803;"	f	typeref:typename:void
+CANID_CANOE_RX1	DEFINE_CAN_ID.h	44;"	d
+CANID_CANOE_RX2	DEFINE_CAN_ID.h	45;"	d
+CANID_CANOE_RX3	DEFINE_CAN_ID.h	46;"	d
+CANID_CANOE_RX4	DEFINE_CAN_ID.h	47;"	d
+CANID_CANOE_RX5	DEFINE_CAN_ID.h	48;"	d
+CANID_CUW_RX	DEFINE_CAN_ID.h	53;"	d
+CANID_CUW_TX	DEFINE_CAN_ID.h	55;"	d
+CANID_DUMMY	DEFINE_CAN_ID.h	57;"	d
+CANID_MCU_DATA1	DEFINE_CAN_ID.h	29;"	d
+CANID_MCU_DATA2	DEFINE_CAN_ID.h	30;"	d
+CANID_MCU_DATA3	DEFINE_CAN_ID.h	31;"	d
+CANID_MCU_DATA4	DEFINE_CAN_ID.h	32;"	d
+CANID_MCU_DATA5	DEFINE_CAN_ID.h	33;"	d
+CANID_MCU_DATA6	DEFINE_CAN_ID.h	34;"	d
+CANID_MCU_DATA7	DEFINE_CAN_ID.h	35;"	d
+CANID_MCU_DATA8	DEFINE_CAN_ID.h	36;"	d
+CANID_MCU_DATA9	DEFINE_CAN_ID.h	37;"	d
+CANID_MCU_ERRCODE	DEFINE_CAN_ID.h	38;"	d
+CANID_VCU_COMMAND	DEFINE_CAN_ID.h	40;"	d
+S16_CAN_GetTorqueOrder_100mNm	CAN.c	914;"	f	typeref:typename:s16
+S8_CAN_GetEangleOffsetFromCan	CAN.c	949;"	f	typeref:typename:s8
+U16_CAN_CYCLE_10MS	CAN.c	36;"	d	file:
+U16_CAN_CYCLE_500MS	CAN.c	37;"	d	file:
+U32_CAN0_CHANNEL_MAX	DEFINE_CAN.h	28;"	d
+U32_CAN_CH0	DEFINE_CAN.h	25;"	d
+U32_CAN_CH1	DEFINE_CAN.h	26;"	d
+U32_CAN_CH2	DEFINE_CAN.h	27;"	d
+U32_CAN_DATA_FRAME	DEFINE_CAN_ID.h	21;"	d
+U32_CAN_MBOX0	DEFINE_CAN.h	22;"	d
+U32_CAN_MBOX3	DEFINE_CAN.h	23;"	d
+U32_CAN_MBOX4	DEFINE_CAN.h	24;"	d
+U32_CAN_RMT_FRAME	DEFINE_CAN_ID.h	22;"	d
+U32_CAN_UNIT0	DEFINE_CAN.h	20;"	d
+U32_CAN_UNIT1	DEFINE_CAN.h	21;"	d
+U32_R_CAN_BAD_ACTION_TYPE	DEFINE_CAN.h	39;"	d
+U32_R_CAN_BAD_CH_NUM	DEFINE_CAN.h	37;"	d
+U32_R_CAN_MSGLOST	DEFINE_CAN.h	34;"	d
+U32_R_CAN_NOT_OK	DEFINE_CAN.h	32;"	d
+U32_R_CAN_NO_SENDDATA	DEFINE_CAN.h	35;"	d
+U32_R_CAN_OK	DEFINE_CAN.h	31;"	d
+U32_R_CAN_RXPOLL_TMO	DEFINE_CAN.h	36;"	d
+U32_R_CAN_STATUS_BUSOFF	DEFINE_CAN.h	53;"	d
+U32_R_CAN_STATUS_ERROR_ACK	DEFINE_CAN.h	52;"	d
+U32_R_CAN_STATUS_ERROR_ACTIVE	DEFINE_CAN.h	50;"	d
+U32_R_CAN_STATUS_ERROR_PASSIVE	DEFINE_CAN.h	51;"	d
+U32_R_CAN_SW_ABORT_ERR	DEFINE_CAN.h	48;"	d
+U32_R_CAN_SW_BAD_MBOX	DEFINE_CAN.h	38;"	d
+U32_R_CAN_SW_OPERATE_ERR	DEFINE_CAN.h	41;"	d
+U32_R_CAN_SW_RST_ERR	DEFINE_CAN.h	44;"	d
+U32_R_CAN_SW_SET_RX_TMO	DEFINE_CAN.h	47;"	d
+U32_R_CAN_SW_SET_TX_TMO	DEFINE_CAN.h	46;"	d
+U32_R_CAN_SW_STOP_ERR	DEFINE_CAN.h	42;"	d
+U32_R_CAN_SW_TEST_ERR	DEFINE_CAN.h	43;"	d
+U32_R_CAN_SW_TSRC_ERR	DEFINE_CAN.h	45;"	d
+U8_CAN0_RXFIFO_USEMAX	CAN.c	39;"	d	file:
+U8_CAN_GetBuzzerPattern	CAN.c	924;"	f	typeref:typename:u8
+U8_CAN_GetRevTimeConstFactorFromCan	CAN.c	959;"	f	typeref:typename:u8
+U8_CAN_GetVcuCommand	CAN.c	989;"	f	typeref:typename:u8
+U8_CAN_WARNING_COUNT_10MS	CAN.c	41;"	d	file:
+V_CAN_CyclicTransmit	CAN.c	282;"	f	typeref:typename:void
+V_CAN_DetectCan	CAN.c	827;"	f	typeref:typename:void
+V_CAN_DetectCanActivate	CAN.c	979;"	f	typeref:typename:void
+V_CAN_DetectCanInactivate	CAN.c	969;"	f	typeref:typename:void
+V_CAN_Initialize	CAN.c	191;"	f	typeref:typename:void
+V_CAN_InitializeForRestart	CAN.c	890;"	f	typeref:typename:void
+V_CAN_Loop10ms	CAN.c	216;"	f	typeref:typename:void
+V_CAN_Loop1ms	CAN.c	206;"	f	typeref:typename:void
+__CAN_H	CAN.h	11;"	d
+__DEFINE_CAN_H	DEFINE_CAN.h	12;"	d
+__DEFINE_CAN_ID_H	DEFINE_CAN_ID.h	12;"	d
+__anon0ce060a8010a	CAN.c	50;"	u	file:
+__anon0ce060a80208	CAN.c	53;"	s	union:__anon0ce060a8010a	file:
+__anon0ce060a8030a	CAN.c	112;"	u	file:
+__anon0ce060a80408	CAN.c	115;"	s	union:__anon0ce060a8030a	file:
+b_CAN_detectCanActivate	CAN.c	146;"	v	typeref:typename:bool	file:
+b_CAN_detectCanActivate	CAN.c	83;"	v	typeref:typename:bool
+b_CAN_firstTransmit	CAN.c	139;"	v	typeref:typename:bool	file:
+b_CAN_firstTransmit	CAN.c	76;"	v	typeref:typename:bool
+b_CAN_isErrorPeripheral	CAN.c	103;"	v	typeref:typename:volatile bool
+b_CAN_isErrorPeripheral	CAN.c	166;"	v	typeref:typename:volatile bool	file:
+b_CAN_isNewDataReceived	CAN.c	105;"	v	typeref:typename:volatile bool
+b_CAN_isNewDataReceived	CAN.c	168;"	v	typeref:typename:volatile bool	file:
+b_CAN_isReceivedFromVcu	CAN.c	143;"	v	typeref:typename:bool	file:
+b_CAN_isReceivedFromVcu	CAN.c	80;"	v	typeref:typename:bool
+b_CAN_keySwStatusVCU	CAN.c	150;"	v	typeref:typename:bool	file:
+b_CAN_keySwStatusVCU	CAN.c	87;"	v	typeref:typename:bool
+b_CAN_notYetReceived	CAN.c	141;"	v	typeref:typename:bool	file:
+b_CAN_notYetReceived	CAN.c	78;"	v	typeref:typename:bool
+b_CAN_rceptionWarningFromVCU	CAN.c	144;"	v	typeref:typename:bool	file:
+b_CAN_rceptionWarningFromVCU	CAN.c	81;"	v	typeref:typename:bool
+b_canTxReqCuw	CAN.c	126;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqCuw	CAN.c	64;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMcuErrCode	CAN.c	125;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMcuErrCode	CAN.c	63;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData1	CAN.c	116;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData1	CAN.c	54;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData2	CAN.c	117;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData2	CAN.c	55;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData3	CAN.c	118;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData3	CAN.c	56;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData4	CAN.c	119;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData4	CAN.c	57;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData5	CAN.c	120;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData5	CAN.c	58;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData6	CAN.c	121;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData6	CAN.c	59;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData7	CAN.c	122;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData7	CAN.c	60;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData8	CAN.c	123;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData8	CAN.c	61;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+b_canTxReqMucData9	CAN.c	124;"	m	struct:__anon0ce060a8030a::__anon0ce060a80408	typeref:typename:u16:1	file:
+b_canTxReqMucData9	CAN.c	62;"	m	struct:__anon0ce060a8010a::__anon0ce060a80208	typeref:typename:u16:1	file:
+bit	CAN.c	128;"	m	union:__anon0ce060a8030a	typeref:struct:__anon0ce060a8030a::__anon0ce060a80408	file:
+bit	CAN.c	66;"	m	union:__anon0ce060a8010a	typeref:struct:__anon0ce060a8010a::__anon0ce060a80208	file:
+pst_CAN_rxBuff	CAN.c	133;"	v	typeref:typename:ST_CAN_STD_FRAME *	file:
+pst_CAN_rxBuff	CAN.c	70;"	v	typeref:typename:ST_CAN_STD_FRAME *
+pst_CAN_txBuff	CAN.c	132;"	v	typeref:typename:ST_CAN_STD_FRAME *	file:
+pst_CAN_txBuff	CAN.c	69;"	v	typeref:typename:ST_CAN_STD_FRAME *
+s16_CAN_torqueOrder_100mNm	CAN.c	152;"	v	typeref:typename:s16	file:
+s16_CAN_torqueOrder_100mNm	CAN.c	89;"	v	typeref:typename:s16
+s8_CAN_eangleOffsetFromCan	CAN.c	155;"	v	typeref:typename:s8	file:
+s8_CAN_eangleOffsetFromCan	CAN.c	92;"	v	typeref:typename:s8
+st_CAN_rxData	CAN.c	135;"	v	typeref:typename:ST_CAN_STD_FRAME	file:
+st_CAN_rxData	CAN.c	72;"	v	typeref:typename:ST_CAN_STD_FRAME
+st_CAN_txData	CAN.c	134;"	v	typeref:typename:ST_CAN_STD_FRAME	file:
+st_CAN_txData	CAN.c	71;"	v	typeref:typename:ST_CAN_STD_FRAME
+u16_CAN_accelAdValue	CAN.c	149;"	v	typeref:typename:volatile u16	file:
+u16_CAN_accelAdValue	CAN.c	86;"	v	typeref:typename:volatile u16
+u16_CAN_cycle	CAN.c	107;"	v	typeref:typename:u16
+u16_CAN_cycle	CAN.c	170;"	v	typeref:typename:u16	file:
+u8_CAN_abnormalCanCounter	CAN.c	147;"	v	typeref:typename:volatile u8	file:
+u8_CAN_abnormalCanCounter	CAN.c	84;"	v	typeref:typename:volatile u8
+u8_CAN_buzzerPattern	CAN.c	153;"	v	typeref:typename:u8	file:
+u8_CAN_buzzerPattern	CAN.c	90;"	v	typeref:typename:u8
+u8_CAN_revTimeConstFactorFromCan	CAN.c	156;"	v	typeref:typename:u8	file:
+u8_CAN_revTimeConstFactorFromCan	CAN.c	93;"	v	typeref:typename:u8
+u8_CAN_rxCanoeData1	CAN.c	160;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxCanoeData1	CAN.c	97;"	v	typeref:typename:u8[8]
+u8_CAN_rxCanoeData2	CAN.c	161;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxCanoeData2	CAN.c	98;"	v	typeref:typename:u8[8]
+u8_CAN_rxCanoeData3	CAN.c	162;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxCanoeData3	CAN.c	99;"	v	typeref:typename:u8[8]
+u8_CAN_rxCanoeData4	CAN.c	100;"	v	typeref:typename:u8[8]
+u8_CAN_rxCanoeData4	CAN.c	163;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxCanoeData5	CAN.c	101;"	v	typeref:typename:u8[8]
+u8_CAN_rxCanoeData5	CAN.c	164;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxVcuCommandData	CAN.c	158;"	v	typeref:typename:u8[8]	file:
+u8_CAN_rxVcuCommandData	CAN.c	95;"	v	typeref:typename:u8[8]
+u8_CAN_vcuErrorInfo	CAN.c	154;"	v	typeref:typename:u8	file:
+u8_CAN_vcuErrorInfo	CAN.c	91;"	v	typeref:typename:u8
+u8_CAN_warningCanVcuCounter	CAN.c	142;"	v	typeref:typename:u8	file:
+u8_CAN_warningCanVcuCounter	CAN.c	79;"	v	typeref:typename:u8
+uni_CAN_txReqMcu	CAN.c	129;"	v	typeref:union:__anon0ce060a8030a
+uni_CAN_txReqMcu	CAN.c	67;"	v	typeref:union:__anon0ce060a8010a
+uni_CAN_vcuCommand	CAN.c	137;"	v	typeref:typename:UNI_VCU_COMMAND	file:
+uni_CAN_vcuCommand	CAN.c	74;"	v	typeref:typename:UNI_VCU_COMMAND
+v_CAN_AllocationReceiveData	CAN.c	723;"	f	typeref:typename:void	file:
+v_CAN_AllocationReceiveData1FromCanoe	CAN.c	754;"	f	typeref:typename:void	file:
+v_CAN_AllocationReceiveData2FromCanoe	CAN.c	768;"	f	typeref:typename:void	file:
+v_CAN_DetectRxTimeout	CAN.c	839;"	f	typeref:typename:void	file:
+v_CAN_GetReceiveData	CAN.c	649;"	f	typeref:typename:void	file:
+v_CAN_SafetyAllocationAtWarning	CAN.c	782;"	f	typeref:typename:void	file:
+v_CAN_Transmit	CAN.c	350;"	f	typeref:typename:void	file:
+v_CAN_TransmitDataSet	CAN.c	377;"	f	typeref:typename:void	file:
+v_CAN_UpdateTxRequest	CAN.c	242;"	f	typeref:typename:void	file:
+word	CAN.c	113;"	m	union:__anon0ce060a8030a	typeref:typename:u16	file:
+word	CAN.c	51;"	m	union:__anon0ce060a8010a	typeref:typename:u16	file:
